@@ -3,4 +3,57 @@
 ------------------------------------------------------
 
 */
+/*------------------------------------------Hero----*/
+.jumbotron {
+  height: 600px;
+  background: white;
+}
+
+/*----------------------------------------------------
+---------------------------------Table of Contents----
+------------------------------------------------------
+
+*/
+nav {
+  background: white;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  background: -webkit-gradient(linear, left top, right top, from(#075ac3), to(#ff82b1));
+  background: linear-gradient(90deg, #075ac3 0%, #ff82b1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*-------------------------------------1. Navbar----*/
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+/*--------------------------------------1. Icons----*/
+.fa {
+  background: -webkit-gradient(linear, left top, right top, from(#075ac3), to(#ff82b1));
+  background: linear-gradient(90deg, #075ac3 0%, #ff82b1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*----------------------------------------------------
+---------------------------------Table of Contents----
+------------------------------------------------------
+
+*/
+/*------------------------------------------Body----*/
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#075ac3), to(#ff82b1));
+  background: linear-gradient(90deg, #075ac3 0%, #ff82b1 100%);
+}
 /*# sourceMappingURL=styles.css.map */
