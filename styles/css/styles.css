@@ -59,7 +59,7 @@ nav {
   font-weight: bold;
   font-size: 70px;
   text-transform: uppercase;
-  margin: 200px 0;
+  padding: 200px 0;
   color: black;
   background: white;
   mix-blend-mode: lighten;
