@@ -1,3 +1,4 @@
+/*----------------------------------------Colors----*/
 /*----------------------------------------------------
 ---------------------------------Table of Contents----
 ------------------------------------------------------
@@ -5,17 +6,11 @@
 */
 /*-------------------------------------Jumbotron----*/
 .jumbotron {
-  margin-bottom: 0;
-  padding: 0;
+  padding: 100px 0;
 }
 
-.jumbotron .container-fluid {
-  padding: 0;
-}
-
-main {
-  height: 500px;
-  background: salmon;
+.section {
+  height: 700px;
 }
 
 /*----------------------------------------------------
@@ -32,9 +27,33 @@ main {
   outline: none;
 }
 
+/*-----------------------------------1. Headings----*/
+h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/*--------------------------------------1. Links----*/
+a {
+  font-weight: 700;
+  color: #fff;
+}
+
+a:hover {
+  color: #ff843c;
+}
+
 /*--------------------------------------1. Icons----*/
 .fa {
-  color: white;
+  font-size: 25px;
+}
+
+.icon-white {
+  color: #fff;
+}
+
+.nav-icon {
+  padding: 0 0.5rem;
 }
 
 /*----------------------------------------------------
@@ -45,23 +64,25 @@ main {
 /*------------------------------------------Body----*/
 /*----------------------------------------Navbar----*/
 nav {
-  background: white;
+  background: #7a19f1;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.navbar-brand:hover {
+  text-decoration: underline;
+}
+
+.nav-item {
+  padding: 1rem 0;
 }
 
 /*-------------------------------------Jumbotron----*/
 .jumbotron {
-  background: -webkit-gradient(linear, left top, right top, from(#075ac3), to(#ff82b1));
-  background: linear-gradient(90deg, #075ac3 0%, #ff82b1 100%);
-}
-
-/*---------------------------------Knockout Text----*/
-.knockout-text {
-  font-weight: bold;
-  font-size: 70px;
-  text-transform: uppercase;
-  padding: 200px 0;
-  color: black;
-  background: white;
-  mix-blend-mode: lighten;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #7a19f1), to(#332179));
+  background: linear-gradient(to bottom, #7a19f1 30%, #332179 100%);
+  color: #fff;
 }
 /*# sourceMappingURL=styles.css.map */

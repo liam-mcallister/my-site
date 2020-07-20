@@ -13,7 +13,32 @@
   }
 }
 
+/*-----------------------------------1. Headings----*/
+h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/*--------------------------------------1. Links----*/
+
+a {
+  font-weight: 700;
+  color: $white;
+
+  &:hover {
+    color: $orange;
+  }
+}
+
 /*--------------------------------------1. Icons----*/
 .fa {
-    color: white;
+  font-size: 25px;
+}
+
+.icon-white {
+  color: $white;
+}
+
+.nav-icon {
+  padding: 0 0.5rem;
 }
