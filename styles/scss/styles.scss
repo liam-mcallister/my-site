@@ -7,6 +7,28 @@
 */
 
 /*------------------------------------------Body----*/
-body {
-    background: linear-gradient(90deg, rgba(7,90,195,1) 0%, rgba(255,130,177,1) 100%);
+
+/*----------------------------------------Navbar----*/
+nav {
+  background: white;
+}
+
+/*-------------------------------------Jumbotron----*/
+.jumbotron {
+  background: linear-gradient(
+    90deg,
+    rgba(7, 90, 195, 1) 0%,
+    rgba(255, 130, 177, 1) 100%
+  );
+}
+
+/*---------------------------------Knockout Text----*/
+.knockout-text {
+  font-weight: bold;
+  font-size: 70px;
+  text-transform: uppercase;
+  margin: 200px 0;
+  color: black;
+  background: white;
+  mix-blend-mode: lighten;
 }

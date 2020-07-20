@@ -3,10 +3,19 @@
 ------------------------------------------------------
 
 */
-/*------------------------------------------Hero----*/
+/*-------------------------------------Jumbotron----*/
 .jumbotron {
-  height: 600px;
-  background: white;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.jumbotron .container-fluid {
+  padding: 0;
+}
+
+main {
+  height: 500px;
+  background: salmon;
 }
 
 /*----------------------------------------------------
@@ -14,20 +23,6 @@
 ------------------------------------------------------
 
 */
-nav {
-  background: white;
-}
-
-h1 {
-  font-size: 60px;
-  font-weight: bold;
-  background: -webkit-gradient(linear, left top, right top, from(#075ac3), to(#ff82b1));
-  background: linear-gradient(90deg, #075ac3 0%, #ff82b1 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 /*-------------------------------------1. Navbar----*/
 .navbar-toggler {
   border: none;
@@ -39,11 +34,7 @@ h1 {
 
 /*--------------------------------------1. Icons----*/
 .fa {
-  background: -webkit-gradient(linear, left top, right top, from(#075ac3), to(#ff82b1));
-  background: linear-gradient(90deg, #075ac3 0%, #ff82b1 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: white;
 }
 
 /*----------------------------------------------------
@@ -52,8 +43,25 @@ h1 {
 
 */
 /*------------------------------------------Body----*/
-body {
+/*----------------------------------------Navbar----*/
+nav {
+  background: white;
+}
+
+/*-------------------------------------Jumbotron----*/
+.jumbotron {
   background: -webkit-gradient(linear, left top, right top, from(#075ac3), to(#ff82b1));
   background: linear-gradient(90deg, #075ac3 0%, #ff82b1 100%);
+}
+
+/*---------------------------------Knockout Text----*/
+.knockout-text {
+  font-weight: bold;
+  font-size: 70px;
+  text-transform: uppercase;
+  margin: 200px 0;
+  color: black;
+  background: white;
+  mix-blend-mode: lighten;
 }
 /*# sourceMappingURL=styles.css.map */

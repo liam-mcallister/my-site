@@ -4,9 +4,19 @@
 
 */
 
-/*------------------------------------------Hero----*/
 
+/*-------------------------------------Jumbotron----*/
 .jumbotron {
-    height: 600px;
-    background: white;
+  margin-bottom: 0;
+  padding: 0;
+
+  & .container-fluid {
+      padding: 0;
   }
+}
+
+
+main {
+    height: 500px;
+    background: salmon;
+}
