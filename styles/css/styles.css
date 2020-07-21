@@ -4,8 +4,10 @@
 ------------------------------------------------------
 
 */
+/*----------------------------------------Navbar----*/
 /*-------------------------------------Jumbotron----*/
 .jumbotron {
+  height: 800px;
   padding: 100px 0;
 }
 
@@ -18,7 +20,7 @@
 ------------------------------------------------------
 
 */
-/*-------------------------------------1. Navbar----*/
+/*------------------------------------ Buttons----*/
 .navbar-toggler {
   border: none;
 }
@@ -27,33 +29,34 @@
   outline: none;
 }
 
-/*-----------------------------------1. Headings----*/
+/*--------------------------------------- Text----*/
 h1 {
   text-transform: uppercase;
   font-weight: 700;
+  color: #2c2528;
 }
 
-/*--------------------------------------1. Links----*/
+p {
+  color: #2c2528;
+}
+
+/*-------------------------------------- Links----*/
 a {
   font-weight: 700;
-  color: #fff;
+  color: #2c2528;
 }
 
-a:hover {
-  color: #ff843c;
-}
-
-/*--------------------------------------1. Icons----*/
+/*-------------------------------------- Icons----*/
 .fa {
   font-size: 25px;
 }
 
-.icon-white {
-  color: #fff;
+.burger-icon {
+  color: #2c2528;
 }
 
 .nav-icon {
-  padding: 0 0.5rem;
+  padding: 0 0.3rem;
 }
 
 /*----------------------------------------------------
@@ -64,7 +67,7 @@ a:hover {
 /*------------------------------------------Body----*/
 /*----------------------------------------Navbar----*/
 nav {
-  background: #7a19f1;
+  background: #46C3FF;
 }
 
 .navbar-brand {
@@ -81,8 +84,8 @@ nav {
 
 /*-------------------------------------Jumbotron----*/
 .jumbotron {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #7a19f1), to(#332179));
-  background: linear-gradient(to bottom, #7a19f1 30%, #332179 100%);
-  color: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(6.2%, #46C3FF), color-stop(99.7%, #70FF97));
+  background-image: linear-gradient(to bottom, #46C3FF 6.2%, #70FF97 99.7%);
+  color: #22181C;
 }
 /*# sourceMappingURL=styles.css.map */

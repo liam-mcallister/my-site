@@ -4,7 +4,7 @@
 
 */
 
-/*-------------------------------------1. Navbar----*/
+/*------------------------------------ Buttons----*/
 .navbar-toggler {
   border: none;
 
@@ -13,32 +13,33 @@
   }
 }
 
-/*-----------------------------------1. Headings----*/
+/*--------------------------------------- Text----*/
 h1 {
   text-transform: uppercase;
   font-weight: 700;
+  color: $black;
 }
 
-/*--------------------------------------1. Links----*/
+p {
+  color: $black;
+}
+
+/*-------------------------------------- Links----*/
 
 a {
   font-weight: 700;
-  color: $white;
-
-  &:hover {
-    color: $orange;
-  }
+  color: $black;
 }
 
-/*--------------------------------------1. Icons----*/
+/*-------------------------------------- Icons----*/
 .fa {
   font-size: 25px;
 }
 
-.icon-white {
-  color: $white;
+.burger-icon {
+  color: $black;
 }
 
 .nav-icon {
-  padding: 0 0.5rem;
+  padding: 0 0.3rem;
 }

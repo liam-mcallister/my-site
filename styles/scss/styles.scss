@@ -10,7 +10,7 @@
 
 /*----------------------------------------Navbar----*/
 nav {
-    background: #7a19f1;
+  background: $blue;
 }
 
 .navbar-brand {
@@ -27,6 +27,6 @@ nav {
 
 /*-------------------------------------Jumbotron----*/
 .jumbotron {
-    background: linear-gradient(to bottom,#7a19f1 30%,#332179 100%);
-    color: $white;
+  background-image: linear-gradient(to bottom, $blue 6.2%, $green 99.7%);
+  color: #22181C;
 }
