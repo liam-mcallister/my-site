@@ -7,17 +7,20 @@
 */
 
 /*------------------------------------------Body----*/
+body {
+  background-image: linear-gradient(to right, $blue 6.2%, $green 99.7%);
+}
 
 /*----------------------------------------Navbar----*/
 nav {
-  background: $blue;
+  background: $white;
 }
 
 .navbar-brand {
   font-weight: 700;
 
   &:hover {
-    text-decoration: underline;
+    color: $orange;
   }
 }
 
@@ -25,8 +28,7 @@ nav {
   padding: 1rem 0;
 }
 
-/*-------------------------------------Jumbotron----*/
-.jumbotron {
-  background-image: linear-gradient(to bottom, $blue 6.2%, $green 99.7%);
-  color: #22181C;
+/*-------------------------------------Intro----*/
+.intro {
+  background: $white;
 }

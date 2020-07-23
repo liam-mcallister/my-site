@@ -21,6 +21,12 @@
 
 */
 /*------------------------------------ Buttons----*/
+.btn {
+  border-radius: 2.5rem;
+  background: #DF9216;
+  color: #fff;
+}
+
 .navbar-toggler {
   border: none;
 }
@@ -33,7 +39,7 @@
 h1 {
   text-transform: uppercase;
   font-weight: 700;
-  color: #2c2528;
+  color: #05386B;
 }
 
 p {
@@ -43,7 +49,7 @@ p {
 /*-------------------------------------- Links----*/
 a {
   font-weight: 700;
-  color: #2c2528;
+  color: #05386B;
 }
 
 /*-------------------------------------- Icons----*/
@@ -52,7 +58,7 @@ a {
 }
 
 .burger-icon {
-  color: #2c2528;
+  color: #379683;
 }
 
 .nav-icon {
@@ -65,9 +71,14 @@ a {
 
 */
 /*------------------------------------------Body----*/
+body {
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(6.2%, #05386B), color-stop(99.7%, #379683));
+  background-image: linear-gradient(to right, #05386B 6.2%, #379683 99.7%);
+}
+
 /*----------------------------------------Navbar----*/
 nav {
-  background: #46C3FF;
+  background: #fff;
 }
 
 .navbar-brand {
@@ -75,17 +86,15 @@ nav {
 }
 
 .navbar-brand:hover {
-  text-decoration: underline;
+  color: #DF9216;
 }
 
 .nav-item {
   padding: 1rem 0;
 }
 
-/*-------------------------------------Jumbotron----*/
-.jumbotron {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(6.2%, #46C3FF), color-stop(99.7%, #70FF97));
-  background-image: linear-gradient(to bottom, #46C3FF 6.2%, #70FF97 99.7%);
-  color: #22181C;
+/*-------------------------------------Intro----*/
+.intro {
+  background: #fff;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -5,6 +5,12 @@
 */
 
 /*------------------------------------ Buttons----*/
+.btn {
+  border-radius: 2.5rem;
+  background: $orange;
+  color: $white;
+}
+
 .navbar-toggler {
   border: none;
 
@@ -17,7 +23,7 @@
 h1 {
   text-transform: uppercase;
   font-weight: 700;
-  color: $black;
+  color: $blue;
 }
 
 p {
@@ -28,7 +34,7 @@ p {
 
 a {
   font-weight: 700;
-  color: $black;
+  color: $blue;
 }
 
 /*-------------------------------------- Icons----*/
@@ -37,7 +43,7 @@ a {
 }
 
 .burger-icon {
-  color: $black;
+  color: $green;
 }
 
 .nav-icon {
