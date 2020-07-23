@@ -30,8 +30,7 @@ nav {
   background: $white;
 }
 
-.services {
-  &::before {
-    content: url("/images/backgrounds/intro-background.svg");
-  }
+.bubbles {
+  width: 100vw;
+  height: auto;
 }

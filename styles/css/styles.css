@@ -6,8 +6,12 @@
 */
 /*----------------------------------------Navbar----*/
 /*-------------------------------------Jumbotron----*/
+.intro {
+  padding: 2rem 0;
+}
+
 .services {
-  height: 700px;
+  height: 200px;
 }
 
 /*----------------------------------------------------
@@ -100,7 +104,8 @@ nav {
   background: #fff;
 }
 
-.services::before {
-  content: url("/images/backgrounds/intro-background.svg");
+.bubbles {
+  width: 100vw;
+  height: auto;
 }
 /*# sourceMappingURL=styles.css.map */
