@@ -8,6 +8,7 @@
 
 /*------------------------------------------Body----*/
 body {
+  font-family: "Oxygen", sans-serif;
   background-image: linear-gradient(to right, $blue 6.2%, $green 99.7%);
 }
 
@@ -18,10 +19,6 @@ nav {
 
 .navbar-brand {
   font-weight: 700;
-
-  &:hover {
-    color: $orange;
-  }
 }
 
 .nav-item {
@@ -31,4 +28,10 @@ nav {
 /*-------------------------------------Intro----*/
 .intro {
   background: $white;
+}
+
+.services {
+  &::before {
+    content: url("/images/backgrounds/intro-background.svg");
+  }
 }
