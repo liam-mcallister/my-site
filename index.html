@@ -32,12 +32,14 @@
     <meta name="twitter:site" content="" />
     <meta property="og:image" content="" />
     <meta name="twitter:creator" content="" />
-    <!--STYLESHEETS-->
+    <!--CDN's-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+    <!--STYLESHEETS-->
+    <link rel="stylesheet" href="styles/css/glide.core.min.css">
     <link rel="stylesheet" href="styles/css/styles.css">
 </head>
 
@@ -79,6 +81,31 @@
     <img class="bubbles" src="images/backgrounds/bubble-top-one.svg" alt="">
 
     <div class="services">
+        <div class="container">
+
+            <div id="Glide" class="glide">
+                <!-- ARROWS -->
+                <div class="glide__arrows">
+                  <button class="glide__arrow prev" data-glide-dir="<">prev</button>
+                  <button class="glide__arrow next" data-glide-dir=">">next</button>
+                </div>
+                <!-- CAROUSEL -->
+                <div class="glide__wrapper">
+                  <ul class="glide__track">
+                    <li class="glide__slide">
+                      <img src="https://source.unsplash.com/1600x900/?tree" alt="img">
+                    </li>
+                    <li class="glide__slide">
+                      <img src="https://source.unsplash.com/1600x900/?winter" alt="img">
+                    </li>
+                    <li class="glide__slide">
+                      <img src="https://source.unsplash.com/1600x900/?forest" alt="img">
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+        </div>
     </div>
 
     <img class="bubbles" src="images/backgrounds/bubble-bottom-one.svg" alt="">
@@ -111,7 +138,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <script src="scripts/glide.min.js"></script>
+    <script src="scripts/app.js"></script>
 </body>
 
 </html>
