@@ -81,29 +81,24 @@
     <img class="bubbles" src="images/backgrounds/bubble-top-one.svg" alt="">
 
     <div class="services">
-        <div class="container">
+        <div class="container-fluid">
 
-            <div id="Glide" class="glide">
-                <!-- ARROWS -->
-                <div class="glide__arrows">
-                  <button class="glide__arrow prev" data-glide-dir="<">prev</button>
-                  <button class="glide__arrow next" data-glide-dir=">">next</button>
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide">0</li>
+                        <li class="glide__slide">1</li>
+                        <li class="glide__slide">2</li>
+                    </ul>
                 </div>
-                <!-- CAROUSEL -->
-                <div class="glide__wrapper">
-                  <ul class="glide__track">
-                    <li class="glide__slide">
-                      <img src="https://source.unsplash.com/1600x900/?tree" alt="img">
-                    </li>
-                    <li class="glide__slide">
-                      <img src="https://source.unsplash.com/1600x900/?winter" alt="img">
-                    </li>
-                    <li class="glide__slide">
-                      <img src="https://source.unsplash.com/1600x900/?forest" alt="img">
-                    </li>
-                  </ul>
-                </div>
-              </div>
+            </div>
+
+            <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+            </div>
+
+
 
         </div>
     </div>
@@ -131,13 +126,13 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="scripts/glide.min.js"></script>
     <script src="scripts/app.js"></script>
 </body>

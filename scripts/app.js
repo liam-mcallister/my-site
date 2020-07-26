@@ -1,4 +1,1 @@
-$("#Glide").glide({
-    type: "carousel",
-    autoplay: "5000"
-  });
+new Glide('.glide').mount()
