@@ -7,83 +7,68 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="bubble-top-two.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   id="svg8"
+   width="210mm"
+   height="35mm"
+   viewBox="0 0 210 35"
    version="1.1"
-   viewBox="0 0 210 40"
-   height="40mm"
-   width="210mm">
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="bubble-top-two.svg">
   <defs
      id="defs2">
     <filter
-       id="filter164"
+       height="1.34"
        style="color-interpolation-filters:sRGB"
-       inkscape:label="Channel Transparency">
-      <feColorMatrix
-         id="feColorMatrix160"
-         result="colormatrix"
-         in="SourceGraphic"
-         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -10 2.40964 -10 -2.10843 0 " />
+       inkscape:label="Drop Shadow"
+       id="filter130">
+      <feFlood
+         flood-opacity="0.729412"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood120" />
       <feComposite
-         id="feComposite162"
-         result="composite1"
-         operator="in"
+         in="flood"
          in2="SourceGraphic"
-         in="colormatrix" />
-    </filter>
-    <filter
-       id="filter212"
-       style="color-interpolation-filters:sRGB;"
-       inkscape:label="Channel Transparency">
-      <feColorMatrix
-         id="feColorMatrix208"
-         result="colormatrix"
-         in="SourceGraphic"
-         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -10 2.40964 -10 -1.71 0 " />
+         operator="in"
+         result="composite1"
+         id="feComposite122" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1.9"
+         result="blur"
+         id="feGaussianBlur124" />
+      <feOffset
+         dx="-6.2"
+         dy="20"
+         result="offset"
+         id="feOffset126" />
       <feComposite
-         id="feComposite210"
-         result="composite1"
-         operator="in"
-         in2="SourceGraphic"
-         in="colormatrix" />
-    </filter>
-    <filter
-       id="filter256"
-       style="color-interpolation-filters:sRGB;"
-       inkscape:label="Channel Transparency">
-      <feColorMatrix
-         id="feColorMatrix252"
-         result="colormatrix"
          in="SourceGraphic"
-         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 4.75904 -10 -10 -1.81 0 " />
-      <feComposite
-         id="feComposite254"
-         result="composite1"
-         operator="in"
-         in2="SourceGraphic"
-         in="colormatrix" />
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite128" />
     </filter>
   </defs>
   <sodipodi:namedview
-     inkscape:window-maximized="0"
-     inkscape:window-y="0"
-     inkscape:window-x="-1"
-     inkscape:window-height="1002"
-     inkscape:window-width="1183"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="mm"
-     inkscape:cy="66.667007"
-     inkscape:cx="345.68191"
-     inkscape:zoom="1"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#ffffff"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="326.95195"
+     inkscape:cy="15.566054"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -97,38 +82,14 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     id="layer1">
     <path
-       sodipodi:nodetypes="cccssscccc"
+       id="path176"
+       style="fill:#ffffff;stroke-width:0.999999;filter:url(#filter130)"
+       d="M -7.9785181,41.261721 -39.830079,70.455079 c 3.43654,24.762161 219.658629,-16.704974 314.895649,0.582556 95.23702,17.28753 -52.30716,79.619235 80.67097,79.619215 132.97779,-7e-5 291.96003,-51.331822 387.19663,-68.619342 95.2366,-17.28752 48.45842,32.179672 61.9179,-52.548059 z"
        transform="matrix(0.26458333,0,0,0.26458333,0.74835467,-14.592916)"
-       d="M -156.97852,-231.93164 V 25.455078 l 39.14844,74.000001 C -114.39354,124.21724 179.82855,53.750105 275.06557,71.037635 370.30259,88.325165 239.02187,145.00002 372,145 c 132.97779,-7e-5 275.69657,-45.674972 370.93317,-62.962492 95.2366,-17.28752 156.45842,-15.820331 159.89495,-40.58243 l 23.48243,-16 V -231.93164 Z"
-       style="fill:#00ff00;stroke-width:0.999999;filter:url(#filter212)"
-       id="path176" />
-    <circle
-       r="7.5"
-       cy="13.849999"
-       cx="68.564583"
-       id="path263"
-       style="fill:#ff8080;stroke-width:0.107849" />
-    <circle
-       style="fill:#ff8080;stroke-width:0.143799"
-       id="path263-8"
-       cx="209.55"
-       cy="20.637501"
-       r="10" />
-    <circle
-       style="fill:#ff8080;stroke-width:0.0647094"
-       id="path263-1"
-       cx="7.3187528"
-       cy="16.314249"
-       r="4.5" />
-    <circle
-       r="2"
-       cy="12.316666"
-       cx="15.756249"
-       id="path263-1-1"
-       style="fill:#ff8080;stroke-width:0.0287597" />
+       sodipodi:nodetypes="ccssscc" />
   </g>
 </svg>
