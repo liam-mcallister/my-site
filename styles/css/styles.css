@@ -88,6 +88,10 @@ a:hover {
 ------------------------------------------------------
 
 */
+html {
+  scroll-behavior: smooth;
+}
+
 /*------------------------------------------Body----*/
 body {
   font-family: "Oxygen", sans-serif;

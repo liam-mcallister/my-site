@@ -55,10 +55,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto text-center">
-                <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Tech</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -66,7 +66,7 @@
     <div class="intro">
         <div class="container-fluid text-center">
             <div class="row justify-content-center">
-                <div class="col-md-10 col-lg-7">
+                <div class="col-md-10 col-lg-7 mb-5">
                     <img class="mb-4" src="images/logos/me.svg" alt="">
                     <h1 class="mb-3">Front-End Web Developer</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non reprehenderit magni excepturi
@@ -80,9 +80,8 @@
 
     <img class="bubbles" src="images/backgrounds/bubble-top-one.svg" alt="">
 
-    <div class="services">
+    <div class="services" id="services">
         <div class="container-fluid">
-
             <div class="glide">
                 <div class="glide__track" data-glide-el="track">
                     <ul class="glide__slides">
@@ -92,20 +91,16 @@
                     </ul>
                 </div>
             </div>
-
             <div class="glide__arrows" data-glide-el="controls">
                 <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
                 <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
             </div>
-
-
-
         </div>
     </div>
 
     <img class="bubbles" src="images/backgrounds/bubble-bottom-one.svg" alt="">
 
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
         <div class="container-fluid">
             <div class="row pb-5 justify-content-center align-items-center text-center text-md-left">
                 <div class="col-md-4 col-lg-3 d-flex justify-content-center">
@@ -116,8 +111,10 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officiis porro omnis illo esse
                         dolore voluptates cumque voluptate laboriosam velit, animi officia accusantium laborum eligendi,
                         ratione aperiam perferendis quos est.</p>
-                    <a href="https://liam-mcallister.github.io/coffee-shop-site/" target="_blank" class="btn">Live Site</a>
-                    <a href="https://github.com/liam-mcallister/coffee-shop-site" target="_blank" class="btn">Github Repo</a>
+                    <a href="https://liam-mcallister.github.io/coffee-shop-site/" target="_blank" class="btn">Live
+                        Site</a>
+                    <a href="https://github.com/liam-mcallister/coffee-shop-site" target="_blank" class="btn">Github
+                        Repo</a>
                 </div>
             </div>
 
@@ -131,7 +128,8 @@
                         dolore voluptates cumque voluptate laboriosam velit, animi officia accusantium laborum eligendi,
                         ratione aperiam perferendis quos est.</p>
                     <a href="https://liam-mcallister.github.io/storage-theme/" target="_blank" class="btn">Live Site</a>
-                    <a href="https://github.com/liam-mcallister/storage-theme" target="_blank" class="btn">Github Repo</a>
+                    <a href="https://github.com/liam-mcallister/storage-theme" target="_blank" class="btn">Github
+                        Repo</a>
                 </div>
             </div>
 
@@ -145,7 +143,8 @@
                         dolore voluptates cumque voluptate laboriosam velit, animi officia accusantium laborum eligendi,
                         ratione aperiam perferendis quos est.</p>
                     <a href="https://liam-mcallister.github.io/blackcab-site/" target="_blank" class="btn">Live Site</a>
-                    <a href="https://github.com/liam-mcallister/blackcab-site" target="_blank" class="btn">Github Repo</a>
+                    <a href="https://github.com/liam-mcallister/blackcab-site" target="_blank" class="btn">Github
+                        Repo</a>
                 </div>
             </div>
         </div>
@@ -153,17 +152,22 @@
 
     <img class="bubbles" src="images/backgrounds/bubble-top-two.svg" alt="">
 
-    <div class="skills"></div>
+    <div class="skills" id="skills">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                </div>
+            </div>
+        </div>
+    </div>
 
     <img class="bubbles" src="images/backgrounds/bubble-bottom-two.svg" alt="">
 
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="container-fluid">
             <div class="row d-flex justify-content-center">
                 <div class="col-md-6 px-5 px-md-0">
                     <h2>Contact</h2>
-
-
                     <form>
                         <div class="form-row">
                             <div class="form-group col-md-6">
@@ -176,13 +180,11 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="inputAddress">Message:</label>
-                            <textarea type="text" class="form-control" id="message"></textarea>
+                            <label for="message">Message:</label>
+                            <textarea type="text" class="form-control" id="message" rows="10"></textarea>
                         </div>
                         <button type="submit" class="btn btn-lg">Send</button>
                     </form>
-
-
                 </div>
             </div>
         </div>
@@ -192,7 +194,6 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-
                     <a href=""><i class="fa fa-envelope blue-icon" aria-hidden="true"></i>me@liammcallister.co.uk</a>
                     <a href=""><i class="fa fa-mobile blue-icon" aria-hidden="true"></i>07811111111</a>
                 </div>
