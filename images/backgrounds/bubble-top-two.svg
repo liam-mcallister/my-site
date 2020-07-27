@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="bubble-top-two.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 210 40"
+   height="40mm"
+   width="210mm">
+  <defs
+     id="defs2">
+    <filter
+       id="filter164"
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Channel Transparency">
+      <feColorMatrix
+         id="feColorMatrix160"
+         result="colormatrix"
+         in="SourceGraphic"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -10 2.40964 -10 -2.10843 0 " />
+      <feComposite
+         id="feComposite162"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="colormatrix" />
+    </filter>
+    <filter
+       id="filter212"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Channel Transparency">
+      <feColorMatrix
+         id="feColorMatrix208"
+         result="colormatrix"
+         in="SourceGraphic"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -10 2.40964 -10 -1.71 0 " />
+      <feComposite
+         id="feComposite210"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="colormatrix" />
+    </filter>
+    <filter
+       id="filter256"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Channel Transparency">
+      <feColorMatrix
+         id="feColorMatrix252"
+         result="colormatrix"
+         in="SourceGraphic"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 4.75904 -10 -10 -1.81 0 " />
+      <feComposite
+         id="feComposite254"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="colormatrix" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="-1"
+     inkscape:window-height="1002"
+     inkscape:window-width="1183"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="66.667007"
+     inkscape:cx="345.68191"
+     inkscape:zoom="1"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <path
+       sodipodi:nodetypes="cccssscccc"
+       transform="matrix(0.26458333,0,0,0.26458333,0.74835467,-14.592916)"
+       d="M -156.97852,-231.93164 V 25.455078 l 39.14844,74.000001 C -114.39354,124.21724 179.82855,53.750105 275.06557,71.037635 370.30259,88.325165 239.02187,145.00002 372,145 c 132.97779,-7e-5 275.69657,-45.674972 370.93317,-62.962492 95.2366,-17.28752 156.45842,-15.820331 159.89495,-40.58243 l 23.48243,-16 V -231.93164 Z"
+       style="fill:#00ff00;stroke-width:0.999999;filter:url(#filter212)"
+       id="path176" />
+    <circle
+       r="7.5"
+       cy="13.849999"
+       cx="68.564583"
+       id="path263"
+       style="fill:#ff8080;stroke-width:0.107849" />
+    <circle
+       style="fill:#ff8080;stroke-width:0.143799"
+       id="path263-8"
+       cx="209.55"
+       cy="20.637501"
+       r="10" />
+    <circle
+       style="fill:#ff8080;stroke-width:0.0647094"
+       id="path263-1"
+       cx="7.3187528"
+       cy="16.314249"
+       r="4.5" />
+    <circle
+       r="2"
+       cy="12.316666"
+       cx="15.756249"
+       id="path263-1-1"
+       style="fill:#ff8080;stroke-width:0.0287597" />
+  </g>
+</svg>

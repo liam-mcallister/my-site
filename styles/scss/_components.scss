@@ -26,6 +26,14 @@ h1 {
   color: $blue;
 }
 
+h2 {
+  @extend h1;
+}
+
+h3 {
+  @extend h1;
+}
+
 p {
   color: $black;
 }
@@ -46,8 +54,12 @@ a {
   font-size: 25px;
 }
 
-.burger-icon {
+.green-icon {
   color: $green;
+}
+
+.blue-icon {
+  color: $blue;
 }
 
 .nav-icon {
@@ -62,3 +74,9 @@ a {
 
 /*-------------------------------------- Carousel----*/
 
+/*-------------------------------------- Form----*/
+.form-control:focus {
+  border-color: $blue;
+  box-shadow: 0 0 0 2px $blue;
+  outline: none;
+}
