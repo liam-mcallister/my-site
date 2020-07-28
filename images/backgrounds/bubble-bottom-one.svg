@@ -11,17 +11,17 @@
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    id="svg8"
    version="1.1"
-   viewBox="0 0 210 50"
-   height="50mm"
+   viewBox="0 0 210 30"
+   height="30mm"
    width="210mm">
   <defs
      id="defs2">
     <inkscape:perspective
        id="perspective455"
-       inkscape:persp3d-origin="86.857143 : 16.288691 : 1"
-       inkscape:vp_z="191.85714 : 24.622024 : 1"
+       inkscape:persp3d-origin="86.857143 : -3.7113089 : 1"
+       inkscape:vp_z="191.85714 : 4.6220244 : 1"
        inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="189.74404 : 36.90625 : 1"
+       inkscape:vp_x="189.74404 : 16.906251 : 1"
        sodipodi:type="inkscape:persp3d" />
     <clipPath
        id="clipPath21"
@@ -52,7 +52,7 @@
        x="-1"
        id="filter338"
        inkscape:label="Drop Shadow"
-       style="color-interpolation-filters:sRGB;">
+       style="color-interpolation-filters:sRGB">
       <feFlood
          id="feFlood328"
          result="flood"
@@ -88,7 +88,7 @@
        width="3"
        id="filter350"
        inkscape:label="Drop Shadow"
-       style="color-interpolation-filters:sRGB;">
+       style="color-interpolation-filters:sRGB">
       <feFlood
          id="feFlood340"
          result="flood"
@@ -120,9 +120,9 @@
   </defs>
   <sodipodi:namedview
      inkscape:window-maximized="1"
-     inkscape:window-y="-9"
-     inkscape:window-x="-9"
-     inkscape:window-height="1001"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="1018"
      inkscape:window-width="1920"
      inkscape:snap-grids="false"
      showgrid="true"
@@ -150,7 +150,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -169,7 +169,7 @@
          id="path504-0"
          style="fill:#ffffff;stroke-width:0.0970704;filter:url(#filter350)" />
       <circle
-         style="fill:#ffffff;stroke-width:0.138672;opacity:1;filter:url(#filter338)"
+         style="opacity:1;fill:#ffffff;stroke-width:0.138672;filter:url(#filter338)"
          id="path504"
          cy="17.962572"
          cx="38.542324"
