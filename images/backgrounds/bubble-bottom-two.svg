@@ -8,8 +8,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
-   height="30mm"
-   viewBox="0 0 210 30"
+   height="17mm"
+   viewBox="0 0 210 17"
    version="1.1"
    id="svg8"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
@@ -19,7 +19,7 @@
     <filter
        id="filter242"
        inkscape:label="Drop Shadow"
-       style="color-interpolation-filters:sRGB;">
+       style="color-interpolation-filters:sRGB">
       <feFlood
          id="feFlood232"
          result="flood"
@@ -64,9 +64,9 @@
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1001"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:window-height="1018"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -76,7 +76,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -87,8 +87,8 @@
     <path
        id="path10"
        style="fill:#ffffff;stroke-width:0.999999;filter:url(#filter242)"
-       d="M 478.97182,205.43438 C 560.76366,264.94077 60.667169,110.48215 -45.693055,195.76292 -152.05328,281.0437 -64.286554,334.28655 -64.286554,334.28655 L 560.05649,324.96694 867.37054,311.69082 C 865.16896,286.55617 894.82442,257.52729 751.40168,195.43889 653.65924,153.12571 323.3413,95.145091 414.52817,159.76568 Z"
-       transform="matrix(0.26458333,0,0,0.26458333,-0.75595241,-32.883929)"
+       d="m 485.40039,204.72009 c 126.07756,42.36354 -582.590366,-88.52365 -688.95059,-3.24288 -106.36022,85.28078 139.263646,132.80934 139.263646,132.80934 l 624.343044,-9.31961 307.31405,-13.27612 c -2.20158,-25.13465 27.45388,-54.16353 -115.96886,-116.25193 -97.74244,-42.31318 -397.00863,-35.1162 -291.15922,0.75537 z"
+       transform="matrix(0.26458333,0,0,0.26458333,35.529762,-43.467263)"
        sodipodi:nodetypes="cccccssc" />
   </g>
 </svg>

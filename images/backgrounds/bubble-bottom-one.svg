@@ -11,17 +11,17 @@
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    id="svg8"
    version="1.1"
-   viewBox="0 0 210 30"
-   height="30mm"
+   viewBox="0 0 210 19"
+   height="19mm"
    width="210mm">
   <defs
      id="defs2">
     <inkscape:perspective
        id="perspective455"
-       inkscape:persp3d-origin="86.857143 : -3.7113089 : 1"
-       inkscape:vp_z="191.85714 : 4.6220244 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="189.74404 : 16.906251 : 1"
+       inkscape:persp3d-origin="86.857143 : -14.711309 : 1"
+       inkscape:vp_z="191.85714 : -6.3779753 : 1"
+       inkscape:vp_y="0 : 999.99999 : 0"
+       inkscape:vp_x="189.74404 : 5.9062511 : 1"
        sodipodi:type="inkscape:persp3d" />
     <clipPath
        id="clipPath21"
@@ -45,78 +45,6 @@
          id="rect502"
          style="fill:#0000aa;stroke-width:0.264583" />
     </clipPath>
-    <filter
-       height="3"
-       width="3"
-       y="-1"
-       x="-1"
-       id="filter338"
-       inkscape:label="Drop Shadow"
-       style="color-interpolation-filters:sRGB">
-      <feFlood
-         id="feFlood328"
-         result="flood"
-         flood-color="rgb(0,0,0)"
-         flood-opacity="0.729412" />
-      <feComposite
-         id="feComposite330"
-         result="composite1"
-         operator="in"
-         in2="SourceGraphic"
-         in="flood" />
-      <feGaussianBlur
-         id="feGaussianBlur332"
-         result="blur"
-         stdDeviation="0.2"
-         in="composite1" />
-      <feOffset
-         id="feOffset334"
-         result="offset"
-         dy="3.5"
-         dx="-6.2" />
-      <feComposite
-         id="feComposite336"
-         result="composite2"
-         operator="over"
-         in2="offset"
-         in="SourceGraphic" />
-    </filter>
-    <filter
-       y="-1"
-       x="-1"
-       height="3"
-       width="3"
-       id="filter350"
-       inkscape:label="Drop Shadow"
-       style="color-interpolation-filters:sRGB">
-      <feFlood
-         id="feFlood340"
-         result="flood"
-         flood-color="rgb(0,0,0)"
-         flood-opacity="0.729412" />
-      <feComposite
-         id="feComposite342"
-         result="composite1"
-         operator="in"
-         in2="SourceGraphic"
-         in="flood" />
-      <feGaussianBlur
-         id="feGaussianBlur344"
-         result="blur"
-         stdDeviation="0.2"
-         in="composite1" />
-      <feOffset
-         id="feOffset346"
-         result="offset"
-         dy="3.5"
-         dx="-6.2" />
-      <feComposite
-         id="feComposite348"
-         result="composite2"
-         operator="over"
-         in2="offset"
-         in="SourceGraphic" />
-    </filter>
   </defs>
   <sodipodi:namedview
      inkscape:window-maximized="1"
@@ -162,25 +90,13 @@
        transform="translate(-1.889881,-5.1026786)"
        style="fill:#aa0000"
        id="g539">
-      <circle
-         r="3.5"
-         cy="12.130745"
-         cx="51.820271"
-         id="path504-0"
-         style="fill:#ffffff;stroke-width:0.0970704;filter:url(#filter350)" />
-      <circle
-         style="opacity:1;fill:#ffffff;stroke-width:0.138672;filter:url(#filter338)"
-         id="path504"
-         cy="17.962572"
-         cx="38.542324"
-         r="5" />
       <path
          id="path445"
          style="fill:#ffffff;stroke-width:0.374667"
          d="m 176.29533,20.8361 c 69.04379,-9.688987 116.80075,56.790648 50.53721,56.790648 -66.26354,0 -238.648419,42.484022 -238.648419,15.104855 1e-6,-27.379167 -75.908509,-115.055401 16.0129051,-75.766781 C 65.128297,43.007781 116.67913,29.202106 176.29533,20.8361 Z"
          sodipodi:nodetypes="sssss"
          clip-path="url(#clipPath500)"
-         transform="translate(-1.0690781,-4.0090429)" />
+         transform="translate(0.25383901,-9.6786857)" />
     </g>
   </g>
 </svg>

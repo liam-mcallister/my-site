@@ -7,68 +7,68 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="35mm"
-   viewBox="0 0 210 35"
-   version="1.1"
-   id="svg8"
+   sodipodi:docname="bubble-top-two.svg"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="bubble-top-two.svg">
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 210 30"
+   height="30mm"
+   width="210mm">
   <defs
      id="defs2">
     <filter
-       height="1.34"
-       style="color-interpolation-filters:sRGB"
+       id="filter130"
        inkscape:label="Drop Shadow"
-       id="filter130">
+       style="color-interpolation-filters:sRGB"
+       height="1.34">
       <feFlood
-         flood-opacity="0.729412"
-         flood-color="rgb(0,0,0)"
+         id="feFlood120"
          result="flood"
-         id="feFlood120" />
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.729412" />
       <feComposite
-         in="flood"
-         in2="SourceGraphic"
-         operator="in"
+         id="feComposite122"
          result="composite1"
-         id="feComposite122" />
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
       <feGaussianBlur
-         in="composite1"
-         stdDeviation="1.9"
+         id="feGaussianBlur124"
          result="blur"
-         id="feGaussianBlur124" />
+         stdDeviation="1.9"
+         in="composite1" />
       <feOffset
-         dx="-6.2"
-         dy="20"
+         id="feOffset126"
          result="offset"
-         id="feOffset126" />
+         dy="20"
+         dx="-6.2" />
       <feComposite
-         in="SourceGraphic"
-         in2="offset"
-         operator="over"
+         id="feComposite128"
          result="composite2"
-         id="feComposite128" />
+         operator="over"
+         in2="offset"
+         in="SourceGraphic" />
     </filter>
   </defs>
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="326.95195"
-     inkscape:cy="15.566054"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     inkscape:document-rotation="0"
-     showgrid="false"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="1018"
      inkscape:window-width="1920"
-     inkscape:window-height="1001"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1" />
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="15.566054"
+     inkscape:cx="326.95195"
+     inkscape:zoom="1.4142136"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -82,14 +82,14 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     id="layer1"
      inkscape:groupmode="layer"
-     id="layer1">
+     inkscape:label="Layer 1">
     <path
-       id="path176"
-       style="fill:#ffffff;stroke-width:0.999999;filter:url(#filter130)"
+       sodipodi:nodetypes="ccssscc"
+       transform="matrix(0.26458333,0,0,0.26458333,1.8708867,-16.650891)"
        d="M -7.9785181,41.261721 -39.830079,70.455079 c 3.43654,24.762161 219.658629,-16.704974 314.895649,0.582556 95.23702,17.28753 -52.30716,79.619235 80.67097,79.619215 132.97779,-7e-5 291.96003,-51.331822 387.19663,-68.619342 95.2366,-17.28752 48.45842,32.179672 61.9179,-52.548059 z"
-       transform="matrix(0.26458333,0,0,0.26458333,0.74835467,-14.592916)"
-       sodipodi:nodetypes="ccssscc" />
+       style="fill:#ffffff;stroke-width:0.999999;filter:url(#filter130)"
+       id="path176" />
   </g>
 </svg>
