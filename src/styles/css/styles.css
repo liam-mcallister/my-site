@@ -12,6 +12,10 @@
 
 /*-----------------------------------------Intro----*/
 /*--------------------------------------Services----*/
+.services {
+  height: 500px;
+}
+
 /*-------------------------------------Portfolio----*/
 .portfolio {
   padding: 5rem 0;
@@ -47,6 +51,12 @@
 
 .navbar-toggler:focus {
   outline: none;
+}
+
+.to-top {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
 }
 
 /*--------------------------------------- Text----*/
