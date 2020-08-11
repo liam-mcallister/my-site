@@ -26,11 +26,11 @@
         ! function () {
             var t = window.driftt = window.drift = window.driftt || [];
             if (!t.init) {
-                if (t.invoked) return void(window.console && console.error && console.error(
+                if (t.invoked) return void (window.console && console.error && console.error(
                     "Drift snippet included twice."));
                 t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page",
-                        "hide", "off", "on"
-                    ],
+                    "hide", "off", "on"
+                ],
                     t.factory = function (e) {
                         return function () {
                             var n = Array.prototype.slice.call(arguments);
@@ -54,7 +54,7 @@
     </script>
     <!-- End of Async Drift Code -->
 
-    
+
     <!--METADATA-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -83,7 +83,6 @@
     <!--DEPENDENCIES-->
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/node_modules/@glidejs/glide/dist/css/glide.core.min.css">
-    <link rel="stylesheet" href="/node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
     <!--CDN'S-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -133,25 +132,74 @@
 
     <div class="services" id="services">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row py-5">
                 <div class="col-12">
 
-
-                    <div class="glide">
+                    <div id="glide" class="glide">
                         <div class="glide__track" data-glide-el="track">
                             <ul class="glide__slides">
-                                <li class="glide__slide">0</li>
-                                <li class="glide__slide">1</li>
-                                <li class="glide__slide">2</li>
+                                <li class="glide__slide">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">one</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">two</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">three</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">four</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">five</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">six</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and
+                                                make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
-                    </div>
 
-                    <div class="glide__arrows" data-glide-el="controls">
-                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+                        <div data-glide-el="controls">
+                            <button class="glide__control--prev" data-glide-dir="<">left</button>
+                            <button class="glide__control--next" data-glide-dir=">">right</button>
+                        </div>
                     </div>
-
 
                 </div>
             </div>
@@ -270,9 +318,26 @@
     <script src="/node_modules/popper.js/dist/popper.min.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/node_modules/@glidejs/glide/dist/glide.min.js"></script>
+
+
     <script>
-        new Glide('.glide').mount()
+        const glideConfig = {
+            type: 'carousel',
+            startAt: 0,
+            perView: 3,
+            breakpoints: {
+                768: {
+                    perView: 2
+                },
+                576: {
+                    perView: 1
+                }
+            }
+        }
+        new Glide('.glide', glideConfig).mount();
     </script>
+
+
     <script src="/src/scripts/app.js"></script>
 </body>
 

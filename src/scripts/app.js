@@ -8,10 +8,5 @@ $(document).ready(function () {
       $("nav").removeClass("nav-shadow");
     }
   });
-
-  // Glide.js config
-  const carouselConfig =  {
-    
-  }
   
 });
