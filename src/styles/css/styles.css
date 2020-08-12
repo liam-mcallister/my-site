@@ -66,6 +66,10 @@ p {
   color: #2c2528;
 }
 
+.text-white {
+  color: #fff;
+}
+
 /*-------------------------------------- Links----*/
 a {
   font-weight: 700;
@@ -79,8 +83,8 @@ a:hover {
 
 /*-------------------------------------- Icons----*/
 .icon {
-  width: 25px;
-  height: 25px;
+  width: 50px;
+  height: 50px;
 }
 
 .fa {
@@ -100,13 +104,28 @@ a:hover {
 }
 
 /*-------------------------------------- Cards----*/
-.card {
-  width: 20rem;
+/*-------------------------------------- Carousel----*/
+.glide__arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-/*-------------------------------------- Carousel----*/
-.glide__slide {
-  padding: 0 3rem;
+.glide__arrow {
+  padding: 0;
+  margin: 0 2rem;
+  background: transparent;
+  border: none;
+  border-radius: 8rem;
+  -webkit-box-shadow: -20px 20px 6px 4px rgba(0, 0, 0, 0.75);
+          box-shadow: -20px 20px 6px 4px rgba(0, 0, 0, 0.75);
+}
+
+.glide__arrow:focus {
+  outline: none;
 }
 
 /*-------------------------------------- Form----*/
@@ -118,6 +137,59 @@ a:hover {
 }
 
 /*-------------------------------------- Images----*/
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  5% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  10% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  15% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  20% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  5% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  10% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  15% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  20% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
 @media screen and (min-width: 992px) {
   nav {
     height: 56px;
@@ -182,5 +254,10 @@ footer {
 .bubbles {
   width: 100%;
   height: auto;
+}
+
+.bounce {
+  -webkit-animation: bounce 5s infinite;
+          animation: bounce 5s infinite;
 }
 /*# sourceMappingURL=styles.css.map */
