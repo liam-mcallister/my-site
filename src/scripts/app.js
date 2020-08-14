@@ -9,4 +9,16 @@ $(document).ready(function () {
     }
   });
 
+  //Smooth scrolling to page sections and collapse the nav
+  $(document).on("click", 'a[href^="#"]', function () {
+    const offset = 200;
+    $("html, body").animate(
+      {
+        scrollTop: $($(this).attr("href")).offset().top - offset,
+      },
+      1000
+    );
+    $('.navbar-collapse').collapse('hide');
+  });
+
 });

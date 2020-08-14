@@ -29,16 +29,16 @@
    guidetolerance="10"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
-   inkscape:window-width="999"
-   inkscape:window-height="1002"
+   inkscape:window-width="1920"
+   inkscape:window-height="1018"
    id="namedview35"
    showgrid="false"
    inkscape:zoom="1.8681319"
    inkscape:cx="227.5"
    inkscape:cy="227.5"
-   inkscape:window-x="0"
-   inkscape:window-y="0"
-   inkscape:window-maximized="0"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
    inkscape:current-layer="Layer_1" />
 <rect
    y="117.22941"
@@ -49,7 +49,7 @@
    style="fill:#ffffff" /><path
    d="M227.5,0C101.855,0,0,101.855,0,227.5S101.855,455,227.5,455S455,353.145,455,227.5S353.145,0,227.5,0z M334.411,276.772  L227.5,170.209L120.589,276.772l-21.178-21.248L227.5,127.852l128.089,127.673L334.411,276.772z"
    id="path2"
-   style="fill:#DF9216" />
+   style="fill:#df9216;fill-opacity:1" />
 <g
    id="g4">
 </g>

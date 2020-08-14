@@ -7,7 +7,9 @@
 <!--<![endif]-->
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Google reCAPTCHA  -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174011598-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -18,8 +20,6 @@
         gtag('js', new Date());
         gtag('config', 'UA-174011598-1');
     </script>
-
-
     <!-- Start of Async Drift Code -->
     <script>
         "use strict";
@@ -53,8 +53,6 @@
         drift.load('s9t7353zf5hx');
     </script>
     <!-- End of Async Drift Code -->
-
-
     <!--METADATA-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -82,11 +80,6 @@
     <meta name="twitter:creator" content="" />
     <!--DEPENDENCIES-->
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/node_modules/@glidejs/glide/dist/css/glide.core.min.css">
-    <!--CDN'S-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
     <!--STYLESHEETS-->
     <link rel="stylesheet" href="/src/styles/css/styles.css">
 </head>
@@ -94,11 +87,11 @@
 <body>
 
     <nav class="navbar navbar-expand-lg fixed-top">
-        <a href="#" class="navbar-brand"><i class="fa fa-code" aria-hidden="true"></i>lmc</a>
+        <span class="navbar-brand"><img class="icon-sm" src="images/icons/code.svg" alt="">lmc</span>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
             aria-expanded="false" aria-label="Toggle navigation" type="button">
             <span>
-                <i class="fa fa-bars green-icon" aria-hidden="true"></i>
+                <img class="icon-sm" src="images/icons/menu.svg" alt="">
             </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -134,65 +127,42 @@
 
     <div class="services" id="services">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class="text-white">Services</h2>
-                </div>
-            </div>
             <div class="row py-5">
-                <div class="col-12">
-                    <div id="glide" class="glide">
-                        <div class="glide__track" data-glide-el="track">
-                            <ul class="glide__slides">
-                                <li class="glide__slide">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">one</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and
-                                                make up the bulk of the card's content.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="glide__slide">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">two</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and
-                                                make up the bulk of the card's content.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="glide__slide">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">three</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and
-                                                make up the bulk of the card's content.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="glide__slide">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h5 class="card-title">four</h5>
-                                            <p class="card-text">Some quick example text to build on the card title and
-                                                make up the bulk of the card's content.</p>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="glide__arrows" data-glide-el="controls">
-                            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
-                                <img class="icon" src="images/icons/left.svg" alt="" />
-                            </button>
-                            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
-                                <img class="icon" src="images/icons/right.svg" alt="" />
-                            </button>
+                <div class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-center">
+                    <div class="card mb-5 mb-xl-0 text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Design</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
                         </div>
                     </div>
-
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-center">
+                    <div class="card mb-5 mb-xl-0 text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-center">
+                    <div class="card mb-5 mb-md-0 text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Responsive Sites</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-center">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">SEO</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -202,11 +172,6 @@
 
     <div class="portfolio" id="portfolio">
         <div class="container-fluid px-4">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h2>Portfolio</h2>
-                </div>
-            </div>
             <div class="row py-5 justify-content-center align-items-center text-center text-md-left">
                 <div class="col-md-4 col-lg-3 pb-4 pb-md-0 d-flex justify-content-center">
                     <img src="images/screenshots/coffee-screen.png" alt="">
@@ -267,24 +232,30 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-md-6 p-4 px-md-0">
                     <h2 class="pb-4 text-center">Lets Talk</h2>
-                    <form action="" method="POST">
+                    <form action="validate.php" method="POST">
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="name">Name:</label>
-                                <input type="text" name="name" class="form-control" id="name" />
+                                <input type="text" name="name" class="form-control" id="name" required />
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="email">Email:</label>
-                                <input type="email" name="email" class="form-control" id="email" />
+                                <input type="email" name="email" class="form-control" id="email" required />
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="message">Message:</label>
-                            <textarea type="text" name="message" class="form-control" id="message" rows="10"></textarea>
+                            <textarea type="text" name="message" class="form-control" id="message" rows="10"
+                                required></textarea>
+                        </div>
+                        <div class="row">
+                            <div class="col mb-3 d-flex justify-content-center">
+                                <div class="g-recaptcha" data-sitekey="6Lff1r4ZAAAAADVjX_wKT3KefqJ4UHRZLjzokj-t"></div>
+                            </div>
                         </div>
                         <div class="row text-center">
                             <div class="col">
-                                <button type="submit" class="btn btn-lg">Send</button>
+                                <button type="submit" name="submit" class="btn btn-lg">Send</button>
                             </div>
                         </div>
                     </form>
@@ -310,32 +281,12 @@
     </div>
 
     <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please upgrade your browser to improve your experience.</p>
         <![endif]-->
 
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="/node_modules/popper.js/dist/popper.min.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="/node_modules/@glidejs/glide/dist/glide.min.js"></script>
-
-
-    <script>
-        const glideConfig = {
-            type: 'carousel',
-            startAt: 0,
-            perView: 3,
-            breakpoints: {
-                768: {
-                    perView: 2
-                },
-                576: {
-                    perView: 1
-                }
-            }
-        }
-        new Glide('.glide', glideConfig).mount();
-    </script>
-
 
     <script src="/src/scripts/app.js"></script>
 </body>

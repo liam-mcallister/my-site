@@ -9,6 +9,17 @@
   border-radius: 2.5rem;
   background: $orange;
   color: $white;
+
+  &:hover {
+    color: $white;
+    background: darken($color: $orange, $amount: 6%);
+  }
+
+  &:focus,
+  &:active {
+    box-shadow: none !important;
+    outline: 0px !important;
+  }
 }
 
 .navbar-toggler {
@@ -61,47 +72,24 @@ a {
 }
 
 /*-------------------------------------- Icons----*/
+.icon-sm {
+  width: 25px;
+  height: 25px;
+}
+
 .icon {
   width: 50px;
   height: 50px;
-}
 
-.fa {
-  font-size: 25px;
-}
-
-.green-icon {
-  color: $green;
-}
-
-.blue-icon {
-  color: $blue;
-}
-
-.nav-icon {
-  padding: 0 0.3rem;
+  &:hover {
+    filter: brightness(0.9);
+  }
 }
 
 /*-------------------------------------- Cards----*/
-
-
-/*-------------------------------------- Carousel----*/
-.glide__arrows {
-  display: flex;
-  justify-content: center;
-}
-
-.glide__arrow {
-  padding: 0;
-  margin: 0 2rem;
-  background: transparent;
-  border: none;
-  border-radius: 8rem;
-  box-shadow: -20px 20px 6px 4px rgba(0,0,0,0.75);
-
-  &:focus {
-    outline: none;
-  }
+.card {
+  max-width: 20rem;
+  box-shadow: -20px 20px 6px 4px rgba(0, 0, 0, 0.75);
 }
 
 /*-------------------------------------- Form----*/
