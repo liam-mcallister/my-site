@@ -7,128 +7,128 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="bubble-top-one.svg"
-   id="svg8"
-   version="1.1"
-   viewBox="0 0 210 31"
+   width="210mm"
    height="31mm"
-   width="210mm">
+   viewBox="0 0 210 31"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="bubble-top-one.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
   <defs
      id="defs2">
     <clipPath
-       id="clipPath35"
-       clipPathUnits="userSpaceOnUse">
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath35">
       <rect
-         y="-238.88103"
-         x="53.243778"
-         height="591.01312"
-         width="399.99988"
+         style="fill:#d40000;stroke-width:2.03908"
          id="rect37"
-         style="fill:#d40000;stroke-width:2.03908" />
+         width="399.99988"
+         height="591.01312"
+         x="53.243778"
+         y="-238.88103" />
     </clipPath>
-    <clipPath
-       id="clipPath59"
-       clipPathUnits="userSpaceOnUse">
-      <rect
-         y="141.7765"
-         x="53.307518"
-         height="145.24054"
-         width="400.01776"
-         id="rect61"
-         style="fill:#d40000;stroke-width:0.1311" />
-    </clipPath>
-    <clipPath
-       id="clipPath111"
-       clipPathUnits="userSpaceOnUse">
-      <rect
-         y="-2654.3975"
-         x="73.874535"
-         height="678.92828"
-         width="3778.0393"
-         id="rect113"
-         style="fill:#6c5d53;stroke-width:1.00043" />
-    </clipPath>
-    <clipPath
-       id="clipPath124"
-       clipPathUnits="userSpaceOnUse">
-      <rect
-         y="-2445.3623"
-         x="79.159599"
-         height="390.53015"
-         width="1120"
-         id="rect126"
-         style="fill:#6c5d53;stroke-width:0.441626" />
-    </clipPath>
-    <filter
-       id="filter358"
-       inkscape:label="Drop Shadow"
-       style="color-interpolation-filters:sRGB"
-       height="7">
-      <feFlood
-         id="feFlood348"
-         result="flood"
-         flood-color="rgb(0,0,0)"
-         flood-opacity="0.63698630136986301" />
-      <feComposite
-         id="feComposite350"
-         result="composite1"
-         operator="in"
-         in2="SourceGraphic"
-         in="flood" />
-      <feGaussianBlur
-         id="feGaussianBlur352"
-         result="blur"
-         stdDeviation="1.2"
-         in="composite1" />
-      <feOffset
-         id="feOffset354"
-         result="offset"
-         dy="20"
-         dx="-20" />
-      <feComposite
-         id="feComposite356"
-         result="composite2"
-         operator="over"
-         in2="offset"
-         in="SourceGraphic" />
-    </filter>
     <clipPath
        clipPathUnits="userSpaceOnUse"
-       id="clipPath60">
+       id="clipPath59">
       <rect
-         style="fill:#ff8080;stroke-width:1.27529"
-         id="rect62"
-         width="1001.6369"
-         height="187.17267"
+         style="fill:#d40000;stroke-width:0.1311"
+         id="rect61"
+         width="400.01776"
+         height="145.24054"
+         x="53.307518"
+         y="141.7765" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath111">
+      <rect
+         style="fill:#6c5d53;stroke-width:1.00043"
+         id="rect113"
+         width="3778.0393"
+         height="678.92828"
+         x="73.874535"
+         y="-2654.3975" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath124">
+      <rect
+         style="fill:#6c5d53;stroke-width:0.441626"
+         id="rect126"
+         width="1120"
+         height="390.53015"
+         x="79.159599"
+         y="-2445.3623" />
+    </clipPath>
+    <filter
+       height="7"
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter358">
+      <feFlood
+         flood-opacity="0.63698630136986301"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood348" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite350" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1.2"
+         result="blur"
+         id="feGaussianBlur352" />
+      <feOffset
+         dx="-20"
+         dy="20"
+         result="offset"
+         id="feOffset354" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite356" />
+    </filter>
+    <clipPath
+       id="clipPath60"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         y="840.42322"
          x="158.74197"
-         y="840.42322" />
+         height="187.17267"
+         width="1001.6369"
+         id="rect62"
+         style="fill:#ff8080;stroke-width:1.27529" />
     </clipPath>
   </defs>
   <sodipodi:namedview
-     inkscape:window-maximized="1"
-     inkscape:window-y="-8"
-     inkscape:window-x="-8"
-     inkscape:window-height="1018"
-     inkscape:window-width="1920"
-     inkscape:snap-to-guides="false"
-     inkscape:snap-grids="true"
-     showgrid="true"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="g130"
-     inkscape:document-units="mm"
-     inkscape:cy="203.38712"
-     inkscape:cx="439.89347"
-     inkscape:zoom="1.4142136"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#ffffff"
-     id="base">
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="628.6854"
+     inkscape:cy="19.684179"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g130"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     inkscape:snap-grids="true"
+     inkscape:snap-to-guides="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1">
     <inkscape:grid
-       id="grid115"
-       type="xygrid" />
+       type="xygrid"
+       id="grid115" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -143,25 +143,25 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     id="layer1">
     <g
-       style="fill:#ffffff;filter:url(#filter358)"
-       transform="matrix(0.21661744,0,0,0.20496894,-35.113995,-175.74058)"
+       clip-path="url(#clipPath60)"
        id="g120"
-       clip-path="url(#clipPath60)">
+       transform="matrix(0.21661744,0,0,0.20496894,-35.113995,-175.74058)"
+       style="fill:#ffffff;filter:url(#filter358)">
       <g
-         style="fill:#ffffff"
+         id="g130"
          transform="matrix(1.0005725,0,0,1.0005261,137.57122,1542.5246)"
-         id="g130">
+         style="fill:#ffffff">
         <path
-           sodipodi:nodetypes="cccssccc"
-           transform="matrix(2.5000008,0,0,1.4823483,-120.94538,-928.76649)"
-           clip-path="url(#clipPath59)"
-           d="m 53.306873,142.02552 v 0 l -0.0052,22.58031 c 16.86927,35.69663 206.771657,83.40787 312.801437,56.16037 62.23359,-15.99276 51.3403,-6.58387 29.25657,16.00714 -20.10677,20.56865 19.71278,17.09817 57.58445,-3.40817 l 0.13375,-91.33708 z"
+           id="rect10"
            style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.513662"
-           id="rect10" />
+           d="m 53.306873,142.02552 v 0 l -0.0052,22.58031 c 16.86927,35.69663 214.848847,113.14597 292.975697,43.51768 51.27075,-52.22122 90.33418,26.11061 117.19029,-8.70353 l -10.38978,-57.39189 z"
+           clip-path="url(#clipPath59)"
+           transform="matrix(2.5000008,0,0,1.4823483,-120.94538,-928.76649)"
+           sodipodi:nodetypes="ccccccc" />
       </g>
     </g>
   </g>
