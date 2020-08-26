@@ -84,10 +84,10 @@
     <link rel="stylesheet" href="/src/styles/css/styles.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar">
 
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <span class="navbar-brand d-flex align-items-center"><img class="icon-sm" src="images/icons/code.svg" alt="">lmc</span>
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+        <span class="navbar-brand d-flex align-items-center text-white"><img class="icon-sm" src="images/icons/code.svg" alt="">lmc</span>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
             aria-expanded="false" aria-label="Toggle navigation" type="button">
             <span>
@@ -104,15 +104,13 @@
         </div>
     </nav>
 
-    <div id="scroll-to" class="nav-height-section"></div>
-
     <div class="intro">
         <div class="container-fluid text-center">
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-7 mb-5">
                     <img class="mb-4" src="images/logos/me.svg" alt="">
-                    <h1 class="mb-3">Website Designer and Developer</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non reprehenderit magni excepturi
+                    <h1 class="mb-3 text-white">Website Designer and Developer</h1>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non reprehenderit magni excepturi
                         cupiditate voluptatem quidem temporibus enim quibusdam saepe quo libero, magnam accusantium
                         nesciunt laudantium similique, nostrum quia autem alias.</p>
                     <a href="#services">
@@ -123,7 +121,7 @@
         </div>
     </div>
 
-    <img class="bubbles" src="images/backgrounds/bubble-top-one.svg" alt="">
+    <div class="shape"></div>
 
     <div class="services" id="services">
         <div class="container-fluid">
@@ -168,13 +166,13 @@
         </div>
     </div>
 
-    <img class="bubbles" src="images/backgrounds/bubble-bottom-one.svg" alt="">
+    <hr>
 
     <div class="portfolio" id="portfolio">
         <div class="container-fluid px-4">
             <div class="row py-5 justify-content-center align-items-center text-center text-md-left">
                 <div class="col-md-4 col-lg-3 pb-4 pb-md-0 d-flex justify-content-center">
-                    <img src="images/screenshots/coffee-screen.png" alt="">
+                    <img src="images/screenshots/coffee-screen.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-6 col-xl-4">
                     <h3>Coffee Shop</h3>
@@ -188,7 +186,7 @@
 
             <div class="row py-5 justify-content-center align-items-center text-center text-md-left">
                 <div class="col-md-4 col-lg-3 pb-4 pb-md-0 d-flex justify-content-center">
-                    <img src="images/screenshots/storage-screen.png" alt="">
+                    <img src="images/screenshots/storage-screen.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-6 col-xl-4">
                     <h3>Self Storage</h3>
@@ -201,7 +199,7 @@
 
             <div class="row py-5 justify-content-center align-items-center text-center text-md-left">
                 <div class="col-md-4 col-lg-3 pb-4 pb-md-0 d-flex justify-content-center">
-                    <img src="images/screenshots/blackcab-screen.png" alt="">
+                    <img src="images/screenshots/blackcab-screen.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-md-6 col-xl-4">
                     <h3>Blackcab Tours</h3>
@@ -214,7 +212,7 @@
         </div>
     </div>
 
-    <img class="bubbles" src="images/backgrounds/bubble-top-two.svg" alt="">
+    <hr>
 
     <div class="skills" id="skills">
         <div class="container-fluid">
@@ -225,7 +223,7 @@
         </div>
     </div>
 
-    <img class="bubbles" src="images/backgrounds/bubble-bottom-two.svg" alt="">
+    <hr>
 
     <div class="contact" id="contact">
         <div class="container-fluid">
@@ -273,12 +271,6 @@
             </div>
         </div>
     </footer>
-
-    <div class="to-top">
-        <a href="#scroll-to">
-            <img class="icon" src="images/icons/up.svg" alt="">
-        </a>
-    </div>
 
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please upgrade your browser to improve your experience.</p>

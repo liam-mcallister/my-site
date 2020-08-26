@@ -4,33 +4,54 @@
 
 */
 
-/*----------------------------------------Navbar----*/
-.nav-height-section {
-    width: 100%;
-    height: 56px;
+body {
+  position: relative;
 }
 
+/*----------------------------------------Navbar----*/
+.nav-height-section {
+  width: 100%;
+  height: 56px;
+}
 
 /*-----------------------------------------Intro----*/
+.intro {
+  padding-top: 5rem;
+  position: relative;
+  overflow: hidden;
+}
 
 /*--------------------------------------Services----*/
 
 /*-------------------------------------Portfolio----*/
 .portfolio {
-    padding: 5rem 0;
-
-    & img {
-        width: 100%;
-        height: auto;
-    }
+  padding: 5rem 0;
 }
 
 /*----------------------------------------Skills----*/
 .skills {
-    height: 500px;
+  height: 500px;
 }
 
 /*---------------------------------------Contact----*/
 
 /*----------------------------------------Footer----*/
 
+.shape {
+  position: relative;
+  overflow: hidden;
+  height: 80px;
+}
+
+.shape::after {
+  border-radius: 100%;
+  position: absolute;
+  background: #005c97;
+  background: -webkit-linear-gradient(to right, #363795, #005c97);
+  background: linear-gradient(to right, #363795, #005c97);
+  right: -200px;
+  left: -200px;
+  top: -200px;
+  content: "";
+  bottom: 0;
+}

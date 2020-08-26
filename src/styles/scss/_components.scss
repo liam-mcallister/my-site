@@ -63,7 +63,7 @@ p {
 
 a {
   font-weight: 700;
-  color: $blue;
+  color: $white;
 
   &:hover {
     text-decoration: none;
@@ -89,7 +89,6 @@ a {
 /*-------------------------------------- Cards----*/
 .card {
   max-width: 20rem;
-  box-shadow: -20px 20px 6px 4px rgba(0, 0, 0, 0.75);
 }
 
 /*-------------------------------------- Form----*/
@@ -99,4 +98,9 @@ a {
   outline: none;
 }
 
-/*-------------------------------------- Images----*/
+/*---------------------------------------- HR----*/
+hr {
+  margin: 0;
+  padding: 0;
+  border-color: #d6d6d6;
+}

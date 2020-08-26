@@ -1,6 +1,6 @@
 /* oxygen-regular - latin */
 @font-face {
-  font-family: 'Oxygen';
+  font-family: "Oxygen";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/oxygen-v9-latin-regular.eot");
@@ -11,7 +11,7 @@
 
 /* oxygen-700 - latin */
 @font-face {
-  font-family: 'Oxygen';
+  font-family: "Oxygen";
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/oxygen-v9-latin-700.eot");
@@ -26,6 +26,10 @@
 ------------------------------------------------------
 
 */
+body {
+  position: relative;
+}
+
 /*----------------------------------------Navbar----*/
 .nav-height-section {
   width: 100%;
@@ -33,15 +37,16 @@
 }
 
 /*-----------------------------------------Intro----*/
+.intro {
+  padding-top: 5rem;
+  position: relative;
+  overflow: hidden;
+}
+
 /*--------------------------------------Services----*/
 /*-------------------------------------Portfolio----*/
 .portfolio {
   padding: 5rem 0;
-}
-
-.portfolio img {
-  width: 100%;
-  height: auto;
 }
 
 /*----------------------------------------Skills----*/
@@ -51,6 +56,25 @@
 
 /*---------------------------------------Contact----*/
 /*----------------------------------------Footer----*/
+.shape {
+  position: relative;
+  overflow: hidden;
+  height: 80px;
+}
+
+.shape::after {
+  border-radius: 100%;
+  position: absolute;
+  background: #005c97;
+  background: -webkit-gradient(linear, left top, right top, from(#363795), to(#005c97));
+  background: linear-gradient(to right, #363795, #005c97);
+  right: -200px;
+  left: -200px;
+  top: -200px;
+  content: "";
+  bottom: 0;
+}
+
 /*----------------------------------------------------
 ---------------------------------Table of Contents----
 ------------------------------------------------------
@@ -106,7 +130,7 @@ p {
 /*-------------------------------------- Links----*/
 a {
   font-weight: 700;
-  color: #05386B;
+  color: #fff;
 }
 
 a:hover {
@@ -133,8 +157,6 @@ a:hover {
 /*-------------------------------------- Cards----*/
 .card {
   max-width: 20rem;
-  -webkit-box-shadow: -20px 20px 6px 4px rgba(0, 0, 0, 0.75);
-          box-shadow: -20px 20px 6px 4px rgba(0, 0, 0, 0.75);
 }
 
 /*-------------------------------------- Form----*/
@@ -145,7 +167,13 @@ a:hover {
   outline: none;
 }
 
-/*-------------------------------------- Images----*/
+/*---------------------------------------- HR----*/
+hr {
+  margin: 0;
+  padding: 0;
+  border-color: #d6d6d6;
+}
+
 @-webkit-keyframes bounce {
   0% {
     -webkit-transform: translateY(0);
@@ -172,6 +200,7 @@ a:hover {
             transform: translateY(0);
   }
 }
+
 @keyframes bounce {
   0% {
     -webkit-transform: translateY(0);
@@ -213,13 +242,14 @@ a:hover {
 /*------------------------------------------Body----*/
 body {
   font-family: "Oxygen", sans-serif;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(6.2%, #05386B), color-stop(99.7%, #379683));
-  background-image: linear-gradient(to right, #05386B 6.2%, #379683 99.7%);
+  background: #fff;
 }
 
 /*----------------------------------------Navbar----*/
 nav {
-  background: #fff;
+  background: #005c97;
+  background: -webkit-gradient(linear, left top, right top, from(#363795), to(#005c97));
+  background: linear-gradient(to right, #363795, #005c97);
 }
 
 .navbar-brand {
@@ -238,32 +268,19 @@ nav {
 
 /*-----------------------------------------Intro----*/
 .intro {
-  background: #fff;
+  background: #005c97;
+  background: -webkit-gradient(linear, left top, right top, from(#363795), to(#005c97));
+  background: linear-gradient(to right, #363795, #005c97);
+  color: #fff;
 }
 
 /*-------------------------------------Portfolio----*/
-.portfolio {
-  background: #fff;
-}
-
 /*----------------------------------------Skills----*/
 /*---------------------------------------Contact----*/
-.contact {
-  background: #fff;
-}
-
 /*----------------------------------------Footer----*/
-footer {
-  background: #fff;
-}
-
-.bubbles {
-  width: 100%;
-  height: auto;
-}
-
 .bounce {
   -webkit-animation: bounce 5s infinite;
           animation: bounce 5s infinite;
+  color: #66c2ff;
 }
 /*# sourceMappingURL=styles.css.map */
