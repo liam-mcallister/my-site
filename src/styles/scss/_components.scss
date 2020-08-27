@@ -12,7 +12,7 @@
 
   &:hover {
     color: $white;
-    background: darken($color: $orange, $amount: 6%);
+    background: lighten($color: $orange, $amount: 9%);
   }
 
   &:focus,
@@ -30,10 +30,13 @@
   }
 }
 
-.to-top {
-  position: fixed;
-  bottom: 1rem;
-  left: 1rem;
+.btn-down {
+  width: 50px;
+  height: 50px;
+
+  &:hover {
+    filter: brightness(1.1);
+  }
 }
 
 /*--------------------------------------- Text----*/
@@ -66,8 +69,7 @@ a {
   color: $white;
 
   &:hover {
-    text-decoration: none;
-    color: $orange;
+    color: $white;
   }
 }
 
@@ -80,10 +82,11 @@ a {
 .icon {
   width: 50px;
   height: 50px;
+}
 
-  &:hover {
-    filter: brightness(0.9);
-  }
+.icon-lg {
+  width: 55px;
+  height: auto;
 }
 
 /*-------------------------------------- Cards----*/
@@ -100,7 +103,8 @@ a {
 
 /*---------------------------------------- HR----*/
 hr {
-  margin: 0;
+  max-width: 1140px;
+  margin: 0 auto;
   padding: 0;
   border-color: #d6d6d6;
 }

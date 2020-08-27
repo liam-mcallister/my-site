@@ -26,11 +26,11 @@
         ! function () {
             var t = window.driftt = window.drift = window.driftt || [];
             if (!t.init) {
-                if (t.invoked) return void(window.console && console.error && console.error(
+                if (t.invoked) return void (window.console && console.error && console.error(
                     "Drift snippet included twice."));
                 t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page",
-                        "hide", "off", "on"
-                    ],
+                    "hide", "off", "on"
+                ],
                     t.factory = function (e) {
                         return function () {
                             var n = Array.prototype.slice.call(arguments);
@@ -84,81 +84,106 @@
     <link rel="stylesheet" href="/src/styles/css/styles.css">
 </head>
 
-<body data-spy="scroll" data-target="#navbar">
+<body>
 
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
-        <span class="navbar-brand d-flex align-items-center text-white"><img class="icon-sm" src="images/icons/code.svg" alt="">lmc</span>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-            aria-expanded="false" aria-label="Toggle navigation" type="button">
-            <span>
-                <img class="icon-sm" src="images/icons/menu.svg" alt="">
+        <div class="container">
+            <span class="navbar-brand">
+                <a href="#intro">
+                    <img class="icon-lg" src="images/icons/code.svg" alt="">
+                </a>
             </span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto text-center">
-                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
-                <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation" type="button">
+                <span>
+                    <img class="icon-sm" src="images/icons/menu.svg" alt="">
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto text-center">
+                    <li class="nav-item pr-lg-4"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item pr-lg-4"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <div class="intro">
-        <div class="container-fluid text-center">
+    <div id="intro" class="intro">
+        <div class="container text-center">
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-7 mb-5">
                     <img class="mb-4" src="images/logos/me.svg" alt="">
-                    <h1 class="mb-3 text-white">Website Designer and Developer</h1>
-                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non reprehenderit magni excepturi
-                        cupiditate voluptatem quidem temporibus enim quibusdam saepe quo libero, magnam accusantium
-                        nesciunt laudantium similique, nostrum quia autem alias.</p>
+                    <h1 class="mb-3 text-white">Hello, I'm Liam</h1>
+                    <p class="text-white">I am a freelance website designer and front-end developer based in
+                        Belfast. I
+                        offer bespoke websites with a strong focus on UI/UX development – jargon aside; I create
+                        clean,
+                        well designed and easy to use websites.</p>
                     <a href="#services">
-                        <img class="icon bounce" src="images/icons/down.svg" alt="">
+                        <img class="btn-down bounce" src="images/icons/down.svg" alt="">
                     </a>
                 </div>
             </div>
         </div>
+        <!--Waves Start-->
+        <div>
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave"
+                        d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+                </g>
+            </svg>
+        </div>
+        <!--Waves end-->
     </div>
 
-    <div class="shape"></div>
-
     <div class="services" id="services">
-        <div class="container-fluid">
-            <div class="row py-5">
+        <div class="container">
+            <div class="row">
                 <div class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-center">
                     <div class="card mb-5 mb-xl-0 text-center">
                         <div class="card-body">
+                            <img class="icon mb-3" src="images/icons/design.svg" alt="">
                             <h5 class="card-title">Web Design</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text">I’ve a keen eye for design, pair this with the latest software and you
+                                have a perfectly designed website, specific to your needs.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-center">
                     <div class="card mb-5 mb-xl-0 text-center">
                         <div class="card-body">
+                            <img class="icon mb-3" src="images/icons/coding.svg" alt="">
                             <h5 class="card-title">Web Development</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text">I write my own code from scratch and ensure that this code is based on
+                                the highest of web standards.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-center">
                     <div class="card mb-5 mb-md-0 text-center">
                         <div class="card-body">
+                            <img class="icon mb-3" src="images/icons/responsive.svg" alt="">
                             <h5 class="card-title">Responsive Sites</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text">Your website will be accessible, easy to use and optimised for use on
+                                all devices.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-center">
                     <div class="card text-center">
                         <div class="card-body">
+                            <img class="icon mb-3" src="images/icons/seo.svg" alt="">
                             <h5 class="card-title">SEO</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <p class="card-text">Visibility is key for any business so I make sure you’re seen.</p>
                         </div>
                     </div>
                 </div>
@@ -169,55 +194,47 @@
     <hr>
 
     <div class="portfolio" id="portfolio">
-        <div class="container-fluid px-4">
-            <div class="row py-5 justify-content-center align-items-center text-center text-md-left">
-                <div class="col-md-4 col-lg-3 pb-4 pb-md-0 d-flex justify-content-center">
-                    <img src="images/screenshots/coffee-screen.png" class="img-fluid" alt="">
+        <div class="container px-4">
+            <h2 class="pb-5 text-center">Recent Projects</h2>
+            <div class="row pb-5 justify-content-center align-items-center text-center text-lg-left">
+                <div class="col-lg-6 pb-4 pb-lg-0 d-flex justify-content-center">
+                    <img src="images/screenshots/coffee-screen.png" alt="">
                 </div>
-                <div class="col-md-6 col-xl-4">
+                <div class="col-lg-5">
                     <h3>Coffee Shop</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officiis porro omnis illo esse
                         dolore voluptates cumque voluptate laboriosam velit, animi officia accusantium laborum eligendi,
                         ratione aperiam perferendis quos est.</p>
-                    <a href="https://liam-mcallister.github.io/coffee-shop-site/" target="_blank" class="btn">Live
+                    <a href="https://liam-mcallister.github.io/coffee-shop-site/" target="_blank" class="btn">Visit
                         Site</a>
                 </div>
             </div>
 
-            <div class="row py-5 justify-content-center align-items-center text-center text-md-left">
-                <div class="col-md-4 col-lg-3 pb-4 pb-md-0 d-flex justify-content-center">
+            <div class="row py-5 justify-content-center align-items-center text-center text-lg-left">
+                <div class="col-lg-6 pb-4 pb-lg-0 d-flex justify-content-center">
                     <img src="images/screenshots/storage-screen.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-md-6 col-xl-4">
+                <div class="col-lg-5">
                     <h3>Self Storage</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officiis porro omnis illo esse
                         dolore voluptates cumque voluptate laboriosam velit, animi officia accusantium laborum eligendi,
                         ratione aperiam perferendis quos est.</p>
-                    <a href="https://liam-mcallister.github.io/storage-theme/" target="_blank" class="btn">Live Site</a>
+                    <a href="https://liam-mcallister.github.io/storage-theme/" target="_blank" class="btn">Visit
+                        Site</a>
                 </div>
             </div>
 
-            <div class="row py-5 justify-content-center align-items-center text-center text-md-left">
-                <div class="col-md-4 col-lg-3 pb-4 pb-md-0 d-flex justify-content-center">
+            <div class="row pt-5 justify-content-center align-items-center text-center text-lg-left">
+                <div class="col-lg-6 pb-4 pb-lg-0 d-flex justify-content-center">
                     <img src="images/screenshots/blackcab-screen.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-md-6 col-xl-4">
+                <div class="col-lg-5">
                     <h3>Blackcab Tours</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officiis porro omnis illo esse
                         dolore voluptates cumque voluptate laboriosam velit, animi officia accusantium laborum eligendi,
                         ratione aperiam perferendis quos est.</p>
-                    <a href="https://liam-mcallister.github.io/blackcab-site/" target="_blank" class="btn">Live Site</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <hr>
-
-    <div class="skills" id="skills">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
+                    <a href="https://liam-mcallister.github.io/blackcab-site/" target="_blank" class="btn">Visit
+                        Site</a>
                 </div>
             </div>
         </div>
@@ -226,10 +243,10 @@
     <hr>
 
     <div class="contact" id="contact">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row d-flex justify-content-center">
-                <div class="col-md-6 p-4 px-md-0">
-                    <h2 class="pb-4 text-center">Lets Talk</h2>
+                <div class="col-md-9 px-md-0">
+                    <h2 class="pb-5 text-center">Lets Talk</h2>
                     <form action="validate.php" method="POST">
                         <div class="form-row">
                             <div class="form-group col-md-6">
@@ -263,8 +280,8 @@
     </div>
 
     <footer>
-        <div class="container-fluid">
-            <div class="row py-3">
+        <div class="container">
+            <div class="row">
                 <div class="col-12 text-center">
                     <small>&copy; 2020 Liam McAllister</small>
                 </div>
