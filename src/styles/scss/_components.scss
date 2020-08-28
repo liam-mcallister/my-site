@@ -11,8 +11,8 @@
   color: $white;
 
   &:hover {
+    background: darken($color: $orange, $amount: 5%);
     color: $white;
-    background: lighten($color: $orange, $amount: 9%);
   }
 
   &:focus,
@@ -25,6 +25,10 @@
 .navbar-toggler {
   border: none;
 
+  &:hover {
+    filter: invert(0.31) sepia(1) saturate(20) hue-rotate(360deg) brightness(1);
+  }
+
   &:focus {
     outline: none;
   }
@@ -33,9 +37,11 @@
 .btn-down {
   width: 50px;
   height: 50px;
+  transition: filter 0.15s ease-in-out;
+  animation: bounce 5s infinite;
 
   &:hover {
-    filter: brightness(1.1);
+    filter: brightness(0.9);
   }
 }
 
@@ -43,7 +49,7 @@
 h1 {
   text-transform: uppercase;
   font-weight: 700;
-  color: $blue;
+  color: $dark-blue;
 }
 
 h2 {
@@ -63,14 +69,18 @@ p {
 }
 
 /*-------------------------------------- Links----*/
-
 a {
   font-weight: 700;
   color: $white;
+  transition: color 0.15s ease-in-out;
 
   &:hover {
-    color: $white;
+    color: $orange;
   }
+}
+
+.logo-link:hover {
+  filter: invert(0.31) sepia(1) saturate(20) hue-rotate(360deg) brightness(1);
 }
 
 /*-------------------------------------- Icons----*/
@@ -96,8 +106,8 @@ a {
 
 /*-------------------------------------- Form----*/
 .form-control:focus {
-  border-color: $blue;
-  box-shadow: 0 0 0 2px $blue;
+  border-color: $dark-blue;
+  box-shadow: 0 0 0 2px $dark-blue;
   outline: none;
 }
 
@@ -106,5 +116,5 @@ hr {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0;
-  border-color: #d6d6d6;
+  border-color: $grey;
 }

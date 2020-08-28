@@ -26,19 +26,14 @@
 ------------------------------------------------------
 
 */
+/*------------------------------------------Body----*/
 body {
   position: relative;
 }
 
-/*----------------------------------------Navbar----*/
-.nav-height-section {
-  width: 100%;
-  height: 56px;
-}
-
 /*-----------------------------------------Intro----*/
 .intro {
-  padding-top: 5rem;
+  margin-top: 56px;
   position: relative;
 }
 
@@ -114,13 +109,13 @@ footer {
 /*------------------------------------ Buttons----*/
 .btn {
   border-radius: 2.5rem;
-  background: #DF9216;
+  background: #ffab00;
   color: #fff;
 }
 
 .btn:hover {
+  background: #e69a00;
   color: #fff;
-  background: #eba638;
 }
 
 .btn:focus, .btn:active {
@@ -133,6 +128,11 @@ footer {
   border: none;
 }
 
+.navbar-toggler:hover {
+  -webkit-filter: invert(0.31) sepia(1) saturate(20) hue-rotate(360deg) brightness(1);
+          filter: invert(0.31) sepia(1) saturate(20) hue-rotate(360deg) brightness(1);
+}
+
 .navbar-toggler:focus {
   outline: none;
 }
@@ -140,18 +140,24 @@ footer {
 .btn-down {
   width: 50px;
   height: 50px;
+  -webkit-transition: -webkit-filter 0.15s ease-in-out;
+  transition: -webkit-filter 0.15s ease-in-out;
+  transition: filter 0.15s ease-in-out;
+  transition: filter 0.15s ease-in-out, -webkit-filter 0.15s ease-in-out;
+  -webkit-animation: bounce 5s infinite;
+          animation: bounce 5s infinite;
 }
 
 .btn-down:hover {
-  -webkit-filter: brightness(1.1);
-          filter: brightness(1.1);
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
 }
 
 /*--------------------------------------- Text----*/
 h1, h2, h3 {
   text-transform: uppercase;
   font-weight: 700;
-  color: #05386B;
+  color: #2b2d88;
 }
 
 p {
@@ -166,10 +172,17 @@ p {
 a {
   font-weight: 700;
   color: #fff;
+  -webkit-transition: color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out;
 }
 
 a:hover {
-  color: #fff;
+  color: #ffab00;
+}
+
+.logo-link:hover {
+  -webkit-filter: invert(0.31) sepia(1) saturate(20) hue-rotate(360deg) brightness(1);
+          filter: invert(0.31) sepia(1) saturate(20) hue-rotate(360deg) brightness(1);
 }
 
 /*-------------------------------------- Icons----*/
@@ -195,9 +208,9 @@ a:hover {
 
 /*-------------------------------------- Form----*/
 .form-control:focus {
-  border-color: #05386B;
-  -webkit-box-shadow: 0 0 0 2px #05386B;
-          box-shadow: 0 0 0 2px #05386B;
+  border-color: #2b2d88;
+  -webkit-box-shadow: 0 0 0 2px #2b2d88;
+          box-shadow: 0 0 0 2px #2b2d88;
   outline: none;
 }
 
@@ -311,14 +324,7 @@ body {
 
 /*----------------------------------------Navbar----*/
 nav {
-  background: #005c97;
-  background: -webkit-gradient(linear, left top, right top, from(#2b2d88), to(#0a93e7));
-  background: linear-gradient(to right, #2b2d88, #0a93e7);
-}
-
-.navbar-brand {
-  font-weight: 700;
-  color: #05386B;
+  background: #2b2d88;
 }
 
 .nav-item {
@@ -332,18 +338,9 @@ nav {
 
 /*-----------------------------------------Intro----*/
 .intro {
-  background: #005c97;
-  background: -webkit-gradient(linear, left top, right top, from(#2b2d88), to(#0a93e7));
-  background: linear-gradient(to right, #2b2d88, #0a93e7);
+  background: #2b2d88;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2b2d88), to(#0a93e7));
+  background: linear-gradient(to bottom, #2b2d88, #0a93e7);
   color: #fff;
-}
-
-/*-------------------------------------Portfolio----*/
-/*---------------------------------------Contact----*/
-/*----------------------------------------Footer----*/
-.bounce {
-  -webkit-animation: bounce 5s infinite;
-          animation: bounce 5s infinite;
-  color: #66c2ff;
 }
 /*# sourceMappingURL=styles.css.map */

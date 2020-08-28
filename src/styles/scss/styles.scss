@@ -33,8 +33,7 @@
       format("svg"); /* Legacy iOS */
 }
 
-@import "variables", "mixins", "layout", "components", "animations",
-  "media-queries";
+@import "variables", "layout", "components", "animations", "media-queries";
 
 /*----------------------------------------------------
 ---------------------------------Table of Contents----
@@ -50,13 +49,7 @@ body {
 
 /*----------------------------------------Navbar----*/
 nav {
-  background: #005c97;
-  background: linear-gradient(to right, #2b2d88, #0a93e7);
-}
-
-.navbar-brand {
-  font-weight: 700;
-  color: $blue;
+  background: $dark-blue;
 }
 
 .nav-item {
@@ -69,18 +62,7 @@ nav {
 
 /*-----------------------------------------Intro----*/
 .intro {
-  background: #005c97;
-  background: linear-gradient(to right, #2b2d88, #0a93e7);
+  background: $dark-blue;
+  background: linear-gradient(to bottom, $dark-blue, $light-blue);
   color: $white;
-}
-
-/*-------------------------------------Portfolio----*/
-
-/*---------------------------------------Contact----*/
-
-/*----------------------------------------Footer----*/
-
-.bounce {
-  animation: bounce 5s infinite;
-  color: #66c2ff;
 }
