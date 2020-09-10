@@ -21,4 +21,19 @@ $(document).ready(function () {
     $('.navbar-collapse').collapse('hide');
   });
 
+  // Submit form in the background and hide it
+  $('form').submit(function (e) {
+    $('#spinner').show();
+    e.preventDefault();
+    $.ajax({
+      url: 'index.php',
+      type: 'POST',
+      data: $('form').serialize(),
+      success: function () {
+        $('form').hide();
+        $('#success-msg').show();
+      }
+    });
+  });
+
 });
