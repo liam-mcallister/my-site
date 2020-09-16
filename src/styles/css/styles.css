@@ -201,6 +201,10 @@ a:hover {
   height: auto;
 }
 
+.spinner {
+  display: none;
+}
+
 /*-------------------------------------- Cards----*/
 .card {
   max-width: 20rem;
@@ -212,6 +216,15 @@ a:hover {
   -webkit-box-shadow: 0 0 0 2px #2b2d88;
           box-shadow: 0 0 0 2px #2b2d88;
   outline: none;
+}
+
+.error {
+  color: red;
+}
+
+.success-msg {
+  display: none;
+  text-align: center;
 }
 
 /*---------------------------------------- HR----*/

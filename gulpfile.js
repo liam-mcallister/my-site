@@ -14,9 +14,9 @@ function concatJs() {
   return gulp
     .src([
       "node_modules/jquery/dist/jquery.min.js",
-      "node_modules/popper.js/dist/popper.min.js",
-      "node_modules/bootstrap/dist/js/bootstrap.min.js",
-      "node_modules/@glidejs/glide/dist/glide.min.js",
+      "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "node_modules/jquery-validation/dist/jquery.validate.min.js",
+      "src/scripts/validate.js",
       "src/scripts/app.js",
     ])
     .pipe(concat("app.js"))
@@ -30,8 +30,6 @@ function concatCss() {
   return gulp
     .src([
       "node_modules/bootstrap/dist/css/bootstrap.min.css",
-      "node_modules/@glidejs/glide/dist/css/glide.core.min.css",
-      "node_modules/@glidejs/glide/dist/css/glide.theme.min.css",
       "src/styles/css/styles.css",
     ])
     .pipe(concat("styles.css"))

@@ -1,7 +1,7 @@
-$(document).ready(function () {
+$(function () {
 
   // Adds drop shadow to navbar when user scrolls 1+px
-  $(window).scroll(function () {
+  $(window).on("scroll", function () {
     if ($(document).scrollTop() > 1) {
       $("nav").addClass("nav-shadow");
     } else {
@@ -19,21 +19,6 @@ $(document).ready(function () {
       1000
     );
     $('.navbar-collapse').collapse('hide');
-  });
-
-  // Submit form in the background and hide it
-  $('form').submit(function (e) {
-    $('#spinner').show();
-    e.preventDefault();
-    $.ajax({
-      url: 'index.php',
-      type: 'POST',
-      data: $('form').serialize(),
-      success: function () {
-        $('form').hide();
-        $('#success-msg').show();
-      }
-    });
   });
 
 });
