@@ -1,6 +1,6 @@
 $(function () {
 
-    // Contact form validation
+    // Contact form validation (plugin)
     $("#contactForm").validate({
         ignore: ".ignore",
         rules: {
@@ -15,17 +15,11 @@ $(function () {
             },
             message: {
                 required: true
-            },
-            hiddenRecaptcha: {
-                required: function () {
-                    if (grecaptcha.getResponse() == '') {
-                        return true;
-                    } else {
-                        return false;
-                    }
-                }
             }
         }
     });
+
+    // Honeypot - Hide the url text field
+    $('#url').hide();
 
 });

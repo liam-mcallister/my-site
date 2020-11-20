@@ -7,53 +7,16 @@
 <!--<![endif]-->
 
 <head>
-    <!-- Google reCAPTCHA  -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174011598-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-174011598-1');
-    </script>
-    <!-- Start of Async Drift Code -->
-    <script>
-        "use strict";
-
-        !function () {
-            var t = window.driftt = window.drift = window.driftt || [];
-            if (!t.init) {
-                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
-                    t.factory = function (e) {
-                        return function () {
-                            var n = Array.prototype.slice.call(arguments);
-                            return n.unshift(e), t.push(n), t;
-                        };
-                    }, t.methods.forEach(function (e) {
-                        t[e] = t.factory(e);
-                    }), t.load = function (t) {
-                        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-                        var i = document.getElementsByTagName("script")[0];
-                        i.parentNode.insertBefore(o, i);
-                    };
-            }
-        }();
-        drift.SNIPPET_VERSION = '0.3.1';
-        drift.load('mkv4p4nff3x8');
-    </script>
-    <!-- End of Async Drift Code -->
     <!--METADATA-->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="canonical" href="https://liammcallister.co.uk/" />
+    <link rel="alternate" hreflang="en" href="https://liammcallister.co.uk/" />
+    <link rel="preload" href="/fonts/oxygen-v9-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/oxygen-v9-latin-700.woff2" as="font" type="font/woff2" crossorigin>
     <title>Freelance Web Designer & Developer | Web Design Belfast | Liam McAllister</title>
-    <link rel="icon" href="images/logos/title.svg" type="image/icon type" />
+    <link rel="icon" href="images/logos/title.svg" type="image/icon" />
     <meta name="author" content="Liam McAllister" />
     <meta name="keywords"
         content="web design, web development, website design, website development, freelance website developer, freelance website designer, front-end developer, web design belfast, web developer belfast, liam mcallister, belfast, freelance, html, html5, css, css3, responsive, javascript, jquery," />
@@ -66,16 +29,19 @@
     <meta property="og:title" content="Freelance Web Designer & Developer | Web Design Belfast | Liam McAllister" />
     <meta property="og:description"
         content="I am a freelance web designer and web developer in Belfast. I design and build quality bespoke websites for all kinds of businesses and professionals." />
-    <meta property="og:image" content="" />
+    <meta property="og:image" content="https://liammcallister.co.uk/images/logos/me.png" />
     <meta property="og:image:type" content="image/jpg" />
     <!--TWITTER METADATA-->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@LmcWeb" />
     <meta name="twitter:title" content="Freelance Web Designer & Developer | Web Design Belfast | Liam McAllister" />
     <meta name="twitter:description"
         content="I am a freelance web designer and web developer in Belfast. I design and build quality bespoke websites for all kinds of businesses and professionals." />
-    <meta name="twitter:image" content="" />
+    <meta name="twitter:image" content="https://liammcallister.co.uk/images/logos/me.png" />
+    <!--DEPENDENCIES-->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <!--STYLESHEETS-->
-    <link rel="stylesheet" href="styles/styles.min.css" />
+    <link rel="stylesheet" href="/src/styles/css/styles.css" />
 </head>
 
 <body>
@@ -143,7 +109,7 @@
                 <div class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-center">
                     <div class="card mb-5 mb-xl-0 text-center">
                         <div class="card-body">
-                            <img class="icon mb-3" src="images/icons/design.svg" alt="Web design icon" />
+                            <img class="icon mb-3 lazyload" data-src="images/icons/design.svg" alt="Web design icon" />
                             <h5 class="card-title">Web Design</h5>
                             <p class="card-text">I’ve a keen eye for design, pair this with the latest software and you
                                 have a perfectly designed website, specific to your needs.</p>
@@ -153,7 +119,8 @@
                 <div class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-center">
                     <div class="card mb-5 mb-xl-0 text-center">
                         <div class="card-body">
-                            <img class="icon mb-3" src="images/icons/coding.svg" alt="Web development icon" />
+                            <img class="icon mb-3 lazyload" data-src="images/icons/coding.svg"
+                                alt="Web development icon" />
                             <h5 class="card-title">Web Development</h5>
                             <p class="card-text">I write my own code from scratch and ensure that this code is based on
                                 the highest of web standards.</p>
@@ -163,7 +130,8 @@
                 <div class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-center">
                     <div class="card mb-5 mb-md-0 text-center">
                         <div class="card-body">
-                            <img class="icon mb-3" src="images/icons/responsive.svg" alt="Tablet and phone icon" />
+                            <img class="icon mb-3 lazyload" data-src="images/icons/responsive.svg"
+                                alt="Tablet and phone icon" />
                             <h5 class="card-title">Responsive Sites</h5>
                             <p class="card-text">Your website will be accessible, easy to use and optimised for use on
                                 all devices.</p>
@@ -173,7 +141,7 @@
                 <div class="col-sm-12 col-md-6 col-xl-3 d-flex justify-content-center">
                     <div class="card text-center">
                         <div class="card-body">
-                            <img class="icon mb-3" src="images/icons/seo.svg" alt="Search icon" />
+                            <img class="icon mb-3 lazyload" data-src="images/icons/seo.svg" alt="Search icon" />
                             <h5 class="card-title">SEO</h5>
                             <p class="card-text">Visibility is key for any business so I make sure you’re seen.</p>
                         </div>
@@ -190,7 +158,7 @@
             <h2 class="pb-5 text-center">Recent Websites</h2>
             <div class="row pb-5 justify-content-center align-items-center text-center text-lg-left">
                 <div class="col-lg-6 pb-4 pb-lg-0 d-flex justify-content-center">
-                    <img src="images/screenshots/coffee-screen.png" class="img-fluid"
+                    <img data-src="images/screenshots/coffee-screen.jpg" class="img-fluid lazyload"
                         alt="Screenshot of a coffee shop website" />
                 </div>
                 <div class="col-lg-5">
@@ -203,7 +171,7 @@
 
             <div class="row py-5 justify-content-center align-items-center text-center text-lg-left">
                 <div class="col-lg-6 pb-4 pb-lg-0 d-flex justify-content-center">
-                    <img src="images/screenshots/storage-screen.png" class="img-fluid"
+                    <img data-src="images/screenshots/storage-screen.jpg" class="img-fluid lazyload"
                         alt="Screenshot of a self storage website" />
                 </div>
                 <div class="col-lg-5">
@@ -216,7 +184,7 @@
 
             <div class="row pt-5 justify-content-center align-items-center text-center text-lg-left">
                 <div class="col-lg-6 pb-4 pb-lg-0 d-flex justify-content-center">
-                    <img src="images/screenshots/blackcab-screen.png" class="img-fluid"
+                    <img data-src="images/screenshots/blackcab-screen.jpg" class="img-fluid lazyload"
                         alt="Screenshot of a tour company website" />
                 </div>
                 <div class="col-lg-5">
@@ -249,21 +217,23 @@
                         </div>
                         <div class="form-group">
                             <label for="message">Message:</label>
-                            <textarea type="text" name="message" class="form-control" id="message" rows="10"></textarea>
+                            <textarea name="message" class="form-control" id="message" rows="10"></textarea>
                         </div>
                         <div class="row">
                             <div class="col mb-3 d-flex justify-content-center">
                                 <div class="d-flex flex-column">
-                                    <div class="g-recaptcha" data-sitekey="6LeKA8wZAAAAABvaDkH11QJ9ICJCDrRyBkcWk8rQ">
-                                    </div>
-                                    <input type="hidden" name="hiddenRecaptcha" id="hiddenRecaptcha">
+                                    <input type="text" name="website" class="form-control" id="website"
+                                        style="display:none !important" tabindex="-1" autocomplete="off" value="" />
+                                    <input type="text" name="url" class="form-control" id="url" tabindex="-1"
+                                        autocomplete="off" value="" />
                                 </div>
                             </div>
                         </div>
                         <div class="row text-center">
                             <div class="col">
                                 <button type="submit" name="submit" class="btn btn-lg">Send
-                                    <img id="spinner" class="icon-sm spinner" src="images/icons/spinner.gif" alt="">
+                                    <img id="spinner" class="icon-sm spinner lazyload"
+                                        data-src="images/icons/spinner.gif" alt="Animated spinner icon">
                                 </button>
                             </div>
                         </div>
@@ -288,6 +258,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please upgrade your browser to improve your experience.</p>
         <![endif]-->
 
+    <script src="scripts/lazysizes.min.js"></script>
     <script src="scripts/app.min.js"></script>
 </body>
 

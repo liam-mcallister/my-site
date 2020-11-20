@@ -229,6 +229,10 @@ a:hover {
   text-align: center;
 }
 
+.website {
+  display: none !important;
+}
+
 /*---------------------------------------- HR----*/
 hr {
   max-width: 1140px;
