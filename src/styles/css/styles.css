@@ -1,12 +1,13 @@
+/*----------------------------------Import Fonts----*/
 /* oxygen-regular - latin */
 @font-face {
   font-family: "Oxygen";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/oxygen-v9-latin-regular.eot");
+  src: url("fonts/oxygen-v9-latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local("Oxygen Regular"), local("Oxygen-Regular"), url("../fonts/oxygen-v9-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/oxygen-v9-latin-regular.woff2") format("woff2"), url("../fonts/oxygen-v9-latin-regular.woff") format("woff"), url("../fonts/oxygen-v9-latin-regular.ttf") format("truetype"), url("../fonts/oxygen-v9-latin-regular.svg#Oxygen") format("svg");
+  src: local("Oxygen Regular"), local("Oxygen-Regular"), url("fonts/oxygen-v9-latin-regular.eot?#iefix") format("embedded-opentype"), url("fonts/oxygen-v9-latin-regular.woff2") format("woff2"), url("fonts/oxygen-v9-latin-regular.woff") format("woff"), url("fonts/oxygen-v9-latin-regular.ttf") format("truetype"), url("fonts/oxygen-v9-latin-regular.svg#Oxygen") format("svg");
   /* Legacy iOS */
 }
 
@@ -16,9 +17,9 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("../fonts/oxygen-v9-latin-700.eot");
+  src: url("fonts/oxygen-v9-latin-700.eot");
   /* IE9 Compat Modes */
-  src: local("Oxygen Bold"), local("Oxygen-Bold"), url("../fonts/oxygen-v9-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/oxygen-v9-latin-700.woff2") format("woff2"), url("../fonts/oxygen-v9-latin-700.woff") format("woff"), url("../fonts/oxygen-v9-latin-700.ttf") format("truetype"), url("../fonts/oxygen-v9-latin-700.svg#Oxygen") format("svg");
+  src: local("Oxygen Bold"), local("Oxygen-Bold"), url("fonts/oxygen-v9-latin-700.eot?#iefix") format("embedded-opentype"), url("fonts/oxygen-v9-latin-700.woff2") format("woff2"), url("fonts/oxygen-v9-latin-700.woff") format("woff"), url("fonts/oxygen-v9-latin-700.ttf") format("truetype"), url("fonts/oxygen-v9-latin-700.svg#Oxygen") format("svg");
   /* Legacy iOS */
 }
 
@@ -27,13 +28,20 @@
 ---------------------------------Table of Contents----
 ------------------------------------------------------
 
+1. Body
+2. Intro
+3. Services
+4. Portfolio
+5. Contact
+6. Footer
+
 */
-/*------------------------------------------Body----*/
+/*---------------------------------------1. Body----*/
 body {
   position: relative;
 }
 
-/*-----------------------------------------Intro----*/
+/*--------------------------------------2. Intro----*/
 .intro {
   margin-top: 56px;
   position: relative;
@@ -83,22 +91,22 @@ body {
           animation-duration: 20s;
 }
 
-/*--------------------------------------Services----*/
+/*-----------------------------------3. Services----*/
 .services {
   padding: 5rem 0;
 }
 
-/*-------------------------------------Portfolio----*/
+/*----------------------------------4. Portfolio----*/
 .portfolio {
   padding: 5rem 0;
 }
 
-/*---------------------------------------Contact----*/
+/*------------------------------------5. Contact----*/
 .contact {
   padding: 5rem 0;
 }
 
-/*----------------------------------------Footer----*/
+/*-------------------------------------6. Footer----*/
 footer {
   padding: 1rem 0;
 }
@@ -107,17 +115,25 @@ footer {
 ---------------------------------Table of Contents----
 ------------------------------------------------------
 
+1. Buttons
+2. Text
+3. Links
+4. Icons
+5. Cards
+6. Forms
+7. HR
+
 */
-/*------------------------------------ Buttons----*/
+/*------------------------------------1. Buttons----*/
 .btn {
   border-radius: 2.5rem;
   background: #ffab00;
-  color: #fff;
+  color: #ffffff;
 }
 
 .btn:hover {
   background: #e69a00;
-  color: #fff;
+  color: #ffffff;
 }
 
 .btn:focus, .btn:active {
@@ -155,7 +171,7 @@ footer {
           filter: brightness(0.9);
 }
 
-/*--------------------------------------- Text----*/
+/*---------------------------------------2. Text----*/
 h1, h2, h3 {
   text-transform: uppercase;
   font-weight: 700;
@@ -167,13 +183,13 @@ p {
 }
 
 .text-white {
-  color: #fff;
+  color: #ffffff;
 }
 
-/*-------------------------------------- Links----*/
+/*--------------------------------------3. Links----*/
 a {
   font-weight: 700;
-  color: #fff;
+  color: #ffffff;
   -webkit-transition: color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out;
 }
@@ -187,7 +203,7 @@ a:hover {
           filter: invert(0.31) sepia(1) saturate(20) hue-rotate(360deg) brightness(1);
 }
 
-/*-------------------------------------- Icons----*/
+/*--------------------------------------4. Icons----*/
 .icon-sm {
   width: 25px;
   height: 25px;
@@ -207,12 +223,12 @@ a:hover {
   display: none;
 }
 
-/*-------------------------------------- Cards----*/
+/*--------------------------------------5. Cards----*/
 .card {
   max-width: 20rem;
 }
 
-/*-------------------------------------- Form----*/
+/*--------------------------------------6. Forms----*/
 .form-control:focus {
   border-color: #2b2d88;
   -webkit-box-shadow: 0 0 0 2px #2b2d88;
@@ -229,7 +245,7 @@ a:hover {
   text-align: center;
 }
 
-/*---------------------------------------- HR----*/
+/*-----------------------------------------7. HR----*/
 hr {
   max-width: 1140px;
   margin: 0 auto;
@@ -237,6 +253,15 @@ hr {
   border-color: #d6d6d6;
 }
 
+/*----------------------------------------------------
+---------------------------------Table of Contents----
+------------------------------------------------------
+
+1. Bounce
+2. Waves
+
+*/
+/*-------------------------------------1. Bounce----*/
 @-webkit-keyframes bounce {
   0% {
     -webkit-transform: translateY(0);
@@ -263,7 +288,6 @@ hr {
             transform: translateY(0);
   }
 }
-
 @keyframes bounce {
   0% {
     -webkit-transform: translateY(0);
@@ -291,6 +315,7 @@ hr {
   }
 }
 
+/*--------------------------------------2. Waves----*/
 @-webkit-keyframes move-forever {
   0% {
     -webkit-transform: translate3d(-90px, 0, 0);
@@ -301,7 +326,6 @@ hr {
             transform: translate3d(85px, 0, 0);
   }
 }
-
 @keyframes move-forever {
   0% {
     -webkit-transform: translate3d(-90px, 0, 0);
@@ -313,31 +337,22 @@ hr {
   }
 }
 
-@media screen and (min-width: 992px) {
-  nav {
-    height: 56px;
-  }
-}
-
-@media (max-width: 768px) {
-  .waves {
-    height: 40px;
-    min-height: 40px;
-  }
-}
-
 /*----------------------------------------------------
 ---------------------------------Table of Contents----
 ------------------------------------------------------
 
+1. Body
+2. Navbar
+3. Intro
+
 */
-/*------------------------------------------Body----*/
+/*---------------------------------------1. Body----*/
 body {
   font-family: "Oxygen", sans-serif;
-  background: #fff;
+  background: #ffffff;
 }
 
-/*----------------------------------------Navbar----*/
+/*-------------------------------------2. Navbar----*/
 nav {
   background: #2b2d88;
 }
@@ -351,11 +366,34 @@ nav {
           box-shadow: 0 0.15rem 0.35rem 0 rgba(0, 0, 0, 0.135);
 }
 
-/*-----------------------------------------Intro----*/
+/*--------------------------------------3. Intro----*/
 .intro {
   background: #2b2d88;
   background: -webkit-gradient(linear, left top, left bottom, from(#2b2d88), to(#0a93e7));
   background: linear-gradient(to bottom, #2b2d88, #0a93e7);
-  color: #fff;
+  color: #ffffff;
+}
+
+/*----------------------------------------------------
+---------------------------------Table of Contents----
+------------------------------------------------------
+
+1. Min Width 992
+2. Max Width 768
+
+*/
+/*------------------------------1. Min Width 992----*/
+@media screen and (min-width: 992px) {
+  nav {
+    height: 56px;
+  }
+}
+
+/*------------------------------2. Max Width 768----*/
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

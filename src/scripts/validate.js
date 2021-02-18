@@ -1,6 +1,6 @@
 $(function () {
 
-    // Contact form validation (plugin)
+    // Contact form validation rules (plugin)
     $("#contactForm").validate({
         ignore: ".ignore",
         rules: {
@@ -19,7 +19,7 @@ $(function () {
         }
     });
 
-    // Honeypot - Hide the url text field
+    // Form honeypot - Hide the url text field
     $('#url').hide();
 
 });

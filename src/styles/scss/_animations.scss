@@ -1,29 +1,40 @@
+/*----------------------------------------------------
+---------------------------------Table of Contents----
+------------------------------------------------------
+
+1. Bounce
+2. Waves
+
+*/
+
+/*-------------------------------------1. Bounce----*/
 @keyframes bounce {
-  0% {
-    transform: translateY(0);
-  }
-  5% {
-    transform: translateY(10px);
-  }
-  10% {
-    transform: translateY(0);
-  }
-  15% {
-    transform: translateY(10px);
-  }
-  20% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(0);
-  }
+    0% {
+        transform: translateY(0);
+    }
+    5% {
+        transform: translateY(10px);
+    }
+    10% {
+        transform: translateY(0);
+    }
+    15% {
+        transform: translateY(10px);
+    }
+    20% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
+/*--------------------------------------2. Waves----*/
 @keyframes move-forever {
-  0% {
-    transform: translate3d(-90px, 0, 0);
-  }
-  100% {
-    transform: translate3d(85px, 0, 0);
-  }
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
 }

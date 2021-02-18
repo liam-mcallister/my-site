@@ -1,6 +1,7 @@
 $(function () {
 
   // Adds drop shadow to navbar when user scrolls 1+px
+  // Removes it when user scrolls to top
   $(window).on("scroll", function () {
     if ($(document).scrollTop() > 1) {
       $("nav").addClass("nav-shadow");
