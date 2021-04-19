@@ -5,9 +5,9 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("fonts/oxygen-v9-latin-regular.eot");
+  src: url("../../fonts/oxygen-v9-latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local("Oxygen Regular"), local("Oxygen-Regular"), url("fonts/oxygen-v9-latin-regular.eot?#iefix") format("embedded-opentype"), url("fonts/oxygen-v9-latin-regular.woff2") format("woff2"), url("fonts/oxygen-v9-latin-regular.woff") format("woff"), url("fonts/oxygen-v9-latin-regular.ttf") format("truetype"), url("fonts/oxygen-v9-latin-regular.svg#Oxygen") format("svg");
+  src: local("Oxygen Regular"), local("Oxygen-Regular"), url("../../fonts/oxygen-v9-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/oxygen-v9-latin-regular.woff2") format("woff2"), url("../../fonts/oxygen-v9-latin-regular.woff") format("woff"), url("../../fonts/oxygen-v9-latin-regular.ttf") format("truetype"), url("../../fonts/oxygen-v9-latin-regular.svg#Oxygen") format("svg");
   /* Legacy iOS */
 }
 
@@ -17,9 +17,9 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("fonts/oxygen-v9-latin-700.eot");
+  src: url("../../fonts/oxygen-v9-latin-700.eot");
   /* IE9 Compat Modes */
-  src: local("Oxygen Bold"), local("Oxygen-Bold"), url("fonts/oxygen-v9-latin-700.eot?#iefix") format("embedded-opentype"), url("fonts/oxygen-v9-latin-700.woff2") format("woff2"), url("fonts/oxygen-v9-latin-700.woff") format("woff"), url("fonts/oxygen-v9-latin-700.ttf") format("truetype"), url("fonts/oxygen-v9-latin-700.svg#Oxygen") format("svg");
+  src: local("Oxygen Bold"), local("Oxygen-Bold"), url("../../fonts/oxygen-v9-latin-700.eot?#iefix") format("embedded-opentype"), url("../../fonts/oxygen-v9-latin-700.woff2") format("woff2"), url("../../fonts/oxygen-v9-latin-700.woff") format("woff"), url("../../fonts/oxygen-v9-latin-700.ttf") format("truetype"), url("../../fonts/oxygen-v9-latin-700.svg#Oxygen") format("svg");
   /* Legacy iOS */
 }
 
